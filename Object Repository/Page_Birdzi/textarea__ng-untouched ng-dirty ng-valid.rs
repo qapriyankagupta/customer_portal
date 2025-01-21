@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>textarea__ng-untouched ng-dirty ng-valid</name>
+   <tag></tag>
+   <elementGuidId>1567d394-775a-42d2-aad2-37e428932b75</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>textarea.ng-untouched.ng-dirty.ng-valid</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//textarea</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:attr=[placeholder=&quot;Offer Description&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>textarea</value>
+      <webElementGuid>58de51d5-f9c6-4c5c-b192-d7b489584a0d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>2</value>
+      <webElementGuid>7b1e59a8-ee6d-42c6-a0a7-0347260b2087</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>formcontrolname</name>
+      <type>Main</type>
+      <value>offerDesc</value>
+      <webElementGuid>16253b53-2d2d-4834-9d5c-13e0fb4180ce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Offer Description</value>
+      <webElementGuid>2d598910-725d-4db3-bd0b-e103ba704fc3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-name</name>
+      <type>Main</type>
+      <value>offerDesc</value>
+      <webElementGuid>3bf8ba64-8948-4845-9828-777264bff284</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-untouched ng-dirty ng-valid</value>
+      <webElementGuid>5ff0fb11-bc4d-4754-ae62-26b4fd88ed4a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/app-root[1]/app-site-layout[1]/div[@class=&quot;container&quot;]/div[@class=&quot;portlet-body&quot;]/app-create-offer[1]/div[@class=&quot;offerApp&quot;]/section[@class=&quot;library_main&quot;]/div[@class=&quot;library_main_content&quot;]/form[@class=&quot;offer_library_form ng-invalid ng-dirty ng-touched&quot;]/div[@class=&quot;form_right_container&quot;]/div[@class=&quot;form-group&quot;]/textarea[@class=&quot;ng-untouched ng-dirty ng-valid&quot;]</value>
+      <webElementGuid>2d56abf4-92d4-40c6-9b28-ad2c4b99d8ba</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//textarea</value>
+      <webElementGuid>a8cece0d-d895-41f5-a74c-20af83948fd8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//textarea[@placeholder = 'Offer Description']</value>
+      <webElementGuid>993054e5-7f1a-41b7-9569-cfffea67d02b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

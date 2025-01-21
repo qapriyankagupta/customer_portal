@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Vendor Funded_ng-untouched ng-valid ng-dirty</name>
+   <tag></tag>
+   <elementGuidId>e8196c41-7d35-42fe-bbda-0f20814e83e0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@type='text'])[12]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.form-group.col-three.gray-bg > input.ng-untouched.ng-valid.ng-dirty</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:attr=[placeholder=&quot;Vendor Funded&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>2b6686f0-303f-4122-a892-f50d161c58ea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>22</value>
+      <webElementGuid>6844bd49-e379-4bff-96ed-ffc9346c7748</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>3162afc5-5932-4526-90e1-98dd777c097f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Vendor Funded</value>
+      <webElementGuid>7082196d-45b2-42b1-afbe-039cdc84745e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>formcontrolname</name>
+      <type>Main</type>
+      <value>vendorFunded</value>
+      <webElementGuid>a57b83e4-07c7-4cd1-b06c-d62251e1954b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-name</name>
+      <type>Main</type>
+      <value>vendorFunded</value>
+      <webElementGuid>db749c4f-2932-4b8a-a45b-af087e78eafe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-untouched ng-valid ng-dirty</value>
+      <webElementGuid>0435b9e9-6284-4629-b9b8-938d95665bf7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/app-root[1]/app-site-layout[1]/div[@class=&quot;container&quot;]/div[@class=&quot;portlet-body&quot;]/app-create-offer[1]/div[@class=&quot;offerApp&quot;]/section[@class=&quot;library_main&quot;]/div[@class=&quot;library_main_content&quot;]/form[@class=&quot;offer_library_form ng-dirty ng-touched ng-valid&quot;]/div[@class=&quot;form_gray_bg_container form-branch&quot;]/div[@class=&quot;padded-inner&quot;]/div[@class=&quot;form-group col-three gray-bg&quot;]/input[@class=&quot;ng-untouched ng-valid ng-dirty&quot;]</value>
+      <webElementGuid>cb6bf206-8b2a-484a-944b-e5133bc373d5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@type='text'])[12]</value>
+      <webElementGuid>774db98e-2c7e-4e49-b94c-81cc79fa18e9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[7]/div/div/input</value>
+      <webElementGuid>cc1adb92-b69d-4d07-8391-43b912fecc07</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'text' and @placeholder = 'Vendor Funded']</value>
+      <webElementGuid>8d40f5d5-525d-482d-839e-69f15e6fce99</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

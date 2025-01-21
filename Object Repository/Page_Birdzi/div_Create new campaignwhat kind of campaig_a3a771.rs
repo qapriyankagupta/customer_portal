@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Create new campaignwhat kind of campaig_a3a771</name>
+   <tag></tag>
+   <elementGuidId>efd69ef5-1e48-4b55-8ce9-a511fd6b91cd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#modal_create_option > div.modal-dialog > div.modal-container</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='modal_create_option']/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;+Create new campaignwhat kind of campaign would you like to makerecurring campai&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>d071e516-1c6a-4013-a440-a5d5de0dc78f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>modal-container</value>
+      <webElementGuid>0337b1a3-ecd6-461d-bff3-cca90877086e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>+Create new campaignwhat kind of campaign would you like to makerecurring campaignone off campaign</value>
+      <webElementGuid>550f7e64-cc8a-4bf7-8a47-24f61c6940b3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;modal_create_option&quot;)/div[@class=&quot;modal-dialog&quot;]/div[@class=&quot;modal-container&quot;]</value>
+      <webElementGuid>1ec1ecea-3470-487c-977b-32edd32955d5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='modal_create_option']/div/div</value>
+      <webElementGuid>2fc431bb-a8e5-4e2b-83e0-f49ec75d88d0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete Campaign'])[2]/following::div[11]</value>
+      <webElementGuid>9a59915f-8740-455b-a507-e8e0d055cca7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Send test'])[1]/following::div[21]</value>
+      <webElementGuid>8b703365-ea37-433c-b3c3-d203236a6766</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div</value>
+      <webElementGuid>10368224-85d9-42d5-840a-5742fff8c968</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '+Create new campaignwhat kind of campaign would you like to makerecurring campaignone off campaign' or . = '+Create new campaignwhat kind of campaign would you like to makerecurring campaignone off campaign')]</value>
+      <webElementGuid>cc540350-3f6e-4a19-a5bf-c008268ab57e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

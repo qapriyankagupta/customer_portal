@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Confirm_1_2_3</name>
+   <tag></tag>
+   <elementGuidId>3ca7adeb-c543-490f-bbcb-6015e945df7e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#modal_basket_offers > div.modal-dialog > div.modal-container > div.modal-footer.clearfix > button.continue.butn.btn-purple</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='modal_basket_offers']/div/div/div[2]/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Confirm&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>6c6cd169-f3c1-4a3a-ba63-8451dcb9673e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>continue butn btn-purple</value>
+      <webElementGuid>7ad09921-1444-4ec4-a7c7-a537629457b2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Confirm</value>
+      <webElementGuid>b9ff3ebd-42f3-40e3-b913-a847c19214c5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;modal_basket_offers&quot;)/div[@class=&quot;modal-dialog&quot;]/div[@class=&quot;modal-container&quot;]/div[@class=&quot;modal-footer clearfix&quot;]/button[@class=&quot;continue butn btn-purple&quot;]</value>
+      <webElementGuid>2fb8fd91-ab41-42f8-bfa7-a0a19b207fdf</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='modal_basket_offers']/div/div/div[2]/button</value>
+      <webElementGuid>d6615c82-3179-40c3-aad6-1849370ec868</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add New Offer'])[1]/following::button[1]</value>
+      <webElementGuid>df94005d-9143-4b3f-861d-0e2929bd0c17</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='+'])[4]/following::button[1]</value>
+      <webElementGuid>db0becda-df05-4fcb-82ad-5636738df2e9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div/div[2]/button</value>
+      <webElementGuid>e1323132-7705-4c85-92f3-8ab8d0ecc321</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Confirm' or . = 'Confirm')]</value>
+      <webElementGuid>e0d6ef39-24ae-4ec6-89c4-c8e1334b4edc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

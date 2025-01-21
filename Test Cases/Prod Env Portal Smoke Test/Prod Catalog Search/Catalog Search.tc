@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login>Go to Catalog>Enter Cheese and search</description>
+   <name>Catalog Search</name>
+   <tag>@login @search @catalog</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2afeec83-fb17-47b6-b089-a1b6781a2d76</testCaseGuid>
+</TestCaseEntity>

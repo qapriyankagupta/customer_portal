@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>li_ShopToCook</name>
+   <tag></tag>
+   <elementGuidId>2def22c5-a5de-4f4a-83c4-0d44fa75790b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='ShopToCook'])[1]/following::li[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li.selected</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>li >> internal:has-text=&quot;ShopToCook&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>c477a263-4b90-46c4-b897-03cd8554e501</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-ng-class</name>
+      <type>Main</type>
+      <value>[object Object]</value>
+      <webElementGuid>93f06313-ce40-438e-9b95-d517b8a6c455</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>selected</value>
+      <webElementGuid>02407f42-79a1-4c2b-bf8f-47731125853d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>ShopToCook</value>
+      <webElementGuid>dec0a45c-779c-43e5-a373-0500f04cae80</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/app-root[1]/app-site-layout[1]/div[@class=&quot;container&quot;]/div[@class=&quot;portlet-body&quot;]/app-create-offer[1]/div[@class=&quot;offerApp&quot;]/section[@class=&quot;library_main&quot;]/div[@class=&quot;library_main_content&quot;]/form[@class=&quot;offer_library_form ng-invalid ng-dirty ng-touched&quot;]/div[@class=&quot;form_left_container&quot;]/div[@class=&quot;form-group col-six mr-0&quot;]/div[@class=&quot;select-container&quot;]/ul[@class=&quot;select-menu&quot;]/li[@class=&quot;selected&quot;]</value>
+      <webElementGuid>cb7ed943-a9fd-41ac-931f-3a78071d9512</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ShopToCook'])[1]/following::li[2]</value>
+      <webElementGuid>17052950-d326-49e5-804e-1f09a0cb9b34</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Brand / Billing Department'])[1]/following::li[2]</value>
+      <webElementGuid>8b033bfd-180f-46a1-9276-db1269b4f87d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[1]/preceding::li[1]</value>
+      <webElementGuid>ae890bc4-c2d9-493a-948d-1e979b0c8a2d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/ul/li[2]</value>
+      <webElementGuid>82b2cd07-369c-4588-8be4-81270030dc43</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = 'ShopToCook' or . = 'ShopToCook')]</value>
+      <webElementGuid>3ca79976-f247-400d-9087-3f3a3fb64d75</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

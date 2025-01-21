@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Smuckers Uncrustables Peanut Butter  _cf9033</name>
+   <tag></tag>
+   <elementGuidId>cab5d606-18c2-42eb-8243-72b3144be19d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[2]/span/input</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input.prodCode.ng-valid.ng-touched.ng-dirty</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:attr=[placeholder=&quot;Add UPCs&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>ec528683-be2a-4cd5-9d09-0645141f8faa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>29</value>
+      <webElementGuid>d96b7ba2-152c-4a55-a94d-3da1393703da</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Add UPCs</value>
+      <webElementGuid>e0d39f71-afe0-497c-836b-ded96017518a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>prodCode ng-valid ng-touched ng-dirty</value>
+      <webElementGuid>36378933-3841-4969-a172-e1630c4696fe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-form</name>
+      <type>Main</type>
+      <value>[object Object]</value>
+      <webElementGuid>dd880d30-01ff-4e2a-8836-1d351ec736fb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/app-root[1]/app-site-layout[1]/div[@class=&quot;container&quot;]/div[@class=&quot;portlet-body&quot;]/app-create-offer[1]/div[@class=&quot;offerApp&quot;]/section[@class=&quot;library_main&quot;]/div[@class=&quot;library_main_content&quot;]/form[@class=&quot;offer_library_form ng-dirty ng-touched ng-valid&quot;]/div[@class=&quot;form_table_section&quot;]/div[@class=&quot;table_content&quot;]/div[@class=&quot;add-new&quot;]/span[@class=&quot;numbers&quot;]/input[@class=&quot;prodCode ng-valid ng-touched ng-dirty&quot;]</value>
+      <webElementGuid>2b36777d-ead9-4b3b-8dbc-d7611f4b3376</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/span/input</value>
+      <webElementGuid>1b251281-fbd9-42bd-b371-30c8b56b2c31</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@placeholder = 'Add UPCs']</value>
+      <webElementGuid>d8a73576-22c2-4f83-aaa8-53f135d2bf9c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

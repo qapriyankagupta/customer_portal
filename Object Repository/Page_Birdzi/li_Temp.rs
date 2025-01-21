@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>li_Temp</name>
+   <tag></tag>
+   <elementGuidId>6698b935-614f-4dc6-9e6e-fe5e1d1d2bd4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='modal_select_campaign']/div/div/div[2]/div/div/div[2]/perfect-scrollbar/div/div/ul/li[5]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#modal_select_campaign > div.modal-dialog > div.modal-container > div.modal-body > div.modal-content > div.left-sec.sec > div.scrollbox > perfect-scrollbar > div.ps > div.ps-content > ul.item-list > li:nth-of-type(5)</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Temp&quot;s</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>bbfdf3c2-9258-4cb3-b5bc-7a955f75e7ab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-ng-class</name>
+      <type>Main</type>
+      <value>[object Object]</value>
+      <webElementGuid>85f779fd-7198-451a-9eaa-e052ce14d813</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Temp</value>
+      <webElementGuid>88a6c398-94cb-4407-8198-c8531abc9374</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;modal_select_campaign&quot;)/div[@class=&quot;modal-dialog&quot;]/div[@class=&quot;modal-container&quot;]/div[@class=&quot;modal-body&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;left-sec sec&quot;]/div[@class=&quot;scrollbox&quot;]/perfect-scrollbar[1]/div[@class=&quot;ps&quot;]/div[@class=&quot;ps-content&quot;]/ul[@class=&quot;item-list&quot;]/li[5]</value>
+      <webElementGuid>6bd5f29f-a960-41c5-887b-dddbd725ef9e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='modal_select_campaign']/div/div/div[2]/div/div/div[2]/perfect-scrollbar/div/div/ul/li[5]</value>
+      <webElementGuid>4c8bc836-dfe1-41f3-b018-edc99db99c6c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='sdfg'])[1]/following::li[1]</value>
+      <webElementGuid>19cf0a1f-1a97-4583-a8a5-7ec84b627d54</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='sadasd'])[1]/following::li[2]</value>
+      <webElementGuid>d0d83164-e02f-4b95-bee2-76831f8a4370</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[8]/preceding::li[1]</value>
+      <webElementGuid>ff09590a-b4a7-4b71-a4ee-2748911d31ea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Save'])[6]/preceding::li[1]</value>
+      <webElementGuid>7d7fffa1-cc1f-48aa-bc04-fabac6c3e241</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Temp']/parent::*</value>
+      <webElementGuid>1d4bc217-50bf-48f1-8194-24dcb1289d75</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[9]/div/div/div[2]/div/div/div[2]/perfect-scrollbar/div/div/ul/li[5]</value>
+      <webElementGuid>856aa2d9-edd3-4277-9480-ed52b2d3c7ad</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = 'Temp' or . = 'Temp')]</value>
+      <webElementGuid>5e23c1f8-d965-4e50-b4cd-6c9649950450</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

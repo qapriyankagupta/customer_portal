@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login>verify offers page>My account>Logout</description>
+   <name>Login</name>
+   <tag>@login @logout @mypage @offers</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>99fc0602-3c14-4645-a8e8-786a6a5e0f8d</testCaseGuid>
+</TestCaseEntity>

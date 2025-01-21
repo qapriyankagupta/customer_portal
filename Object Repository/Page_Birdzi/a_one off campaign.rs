@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_one off campaign</name>
+   <tag></tag>
+   <elementGuidId>af98cd73-28bc-42d6-9282-7442f0f600df</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='modal_create_option']/div/div/div/div/a[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;one off campaign&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>57373baf-055d-4ac6-b365-8e06e36602ab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>queryparamshandling</name>
+      <type>Main</type>
+      <value>merge</value>
+      <webElementGuid>f58fb4f7-42ff-4686-a9ae-d59935d96691</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn-txt b-close</value>
+      <webElementGuid>a9b54314-8ee3-431c-8ab5-94cf4b0a6e41</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-query-params-handling</name>
+      <type>Main</type>
+      <value>merge</value>
+      <webElementGuid>e529f523-54e0-4c5d-a74a-42d0d5ef02a0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-router-link</name>
+      <type>Main</type>
+      <value>/visper/create-campaign</value>
+      <webElementGuid>d5af701f-7f68-4462-a741-86cd8d9e8f48</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-query-params</name>
+      <type>Main</type>
+      <value>[object Object]</value>
+      <webElementGuid>ef8b8940-58b6-4e11-a232-c1e8893b25f4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/prod/v1.65-ac2a4dc81cb749f05c8c9b55d2e28d6b121c5286/visper/create-campaign?portalUserCompanyID=3604&amp;portalUserContactID=8483&amp;campaignTypeId=1</value>
+      <webElementGuid>21265c33-1caa-4751-9465-75e0b52bf54f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>one off campaign</value>
+      <webElementGuid>4501cd5d-b65d-41a8-80e0-0c53ed89dcb4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;modal_create_option&quot;)/div[@class=&quot;modal-dialog&quot;]/div[@class=&quot;modal-container&quot;]/div[@class=&quot;modal-body&quot;]/div[@class=&quot;modal-content&quot;]/a[@class=&quot;btn-txt b-close&quot;]</value>
+      <webElementGuid>b8df87f1-7fda-45aa-bea7-0bbe941e669f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='modal_create_option']/div/div/div/div/a[2]</value>
+      <webElementGuid>3597d14a-ed81-4c6d-a980-11ee242e702d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'one off campaign')]</value>
+      <webElementGuid>612e7593-1a21-4860-b8d0-6c0633a9327a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='recurring campaign'])[1]/following::a[1]</value>
+      <webElementGuid>73591589-6e86-45a2-9d32-d4cc418e3201</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Create new campaign'])[1]/following::a[2]</value>
+      <webElementGuid>7f66a871-c5d6-4d2c-8973-9d97626ad0ab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='one off campaign']/parent::*</value>
+      <webElementGuid>271b79f7-bf51-453e-886e-ed45c3689ae7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/prod/v1.65-ac2a4dc81cb749f05c8c9b55d2e28d6b121c5286/visper/create-campaign?portalUserCompanyID=3604&amp;portalUserContactID=8483&amp;campaignTypeId=1')]</value>
+      <webElementGuid>063a6f1e-603f-4fc8-8b48-8df9a0c0618a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div/div/a[2]</value>
+      <webElementGuid>d8dac3c7-6a83-4673-bfb1-852606d044c3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/prod/v1.65-ac2a4dc81cb749f05c8c9b55d2e28d6b121c5286/visper/create-campaign?portalUserCompanyID=3604&amp;portalUserContactID=8483&amp;campaignTypeId=1' and (text() = 'one off campaign' or . = 'one off campaign')]</value>
+      <webElementGuid>a4a2bec8-d509-479f-bd3b-6532eaeb452f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/dev/v1.64-1659f6c55ca2dd9b34055799a165db3e2eac9887/visper/create-campaign?portalUserCompanyID=3604&amp;portalUserContactID=110&amp;campaignTypeId=1')]</value>
+      <webElementGuid>9f91c68b-7e05-4b16-8f24-9d62ff08f90f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div/div/div/a[2]</value>
+      <webElementGuid>c7fce428-7826-43af-8a5a-6c6c250b9487</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/dev/v1.64-1659f6c55ca2dd9b34055799a165db3e2eac9887/visper/create-campaign?portalUserCompanyID=3604&amp;portalUserContactID=110&amp;campaignTypeId=1' and (text() = 'one off campaign' or . = 'one off campaign')]</value>
+      <webElementGuid>b6d36295-cd2b-44b0-87ef-b23348c11cc6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Tgi Fridays Snack Size Honey Bbq Chic_e0067b</name>
+   <tag></tag>
+   <elementGuidId>22fcaf36-5957-493e-bd91-849e0be71945</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[2]/span/input</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input.prodCode.ng-valid.ng-dirty.ng-touched</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:attr=[placeholder=&quot;Add UPCs&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>d99987e2-b5b5-4a03-b03a-efb5bae64c7c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>29</value>
+      <webElementGuid>fd3b6067-5434-4587-b01d-83323d462727</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Add UPCs</value>
+      <webElementGuid>ca09fdd4-7594-442a-8ffa-7cc5cb69d37f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>prodCode ng-valid ng-dirty ng-touched</value>
+      <webElementGuid>ab84f40f-6400-42d4-aaf1-5ce53f16d0a9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-form</name>
+      <type>Main</type>
+      <value>[object Object]</value>
+      <webElementGuid>52774ff2-df43-4f89-9890-09bb61455fd5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/app-root[1]/app-site-layout[1]/div[@class=&quot;container&quot;]/div[@class=&quot;portlet-body&quot;]/app-create-offer[1]/div[@class=&quot;offerApp&quot;]/section[@class=&quot;library_main&quot;]/div[@class=&quot;library_main_content&quot;]/form[@class=&quot;offer_library_form ng-untouched ng-pristine ng-invalid&quot;]/div[@class=&quot;form_table_section&quot;]/div[@class=&quot;table_content&quot;]/div[@class=&quot;add-new&quot;]/span[@class=&quot;numbers&quot;]/input[@class=&quot;prodCode ng-valid ng-dirty ng-touched&quot;]</value>
+      <webElementGuid>6d3e38a4-0157-43d7-9d03-c866b91c4ad3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/span/input</value>
+      <webElementGuid>0c032480-1746-4857-9317-34dc5a84a1ec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@placeholder = 'Add UPCs']</value>
+      <webElementGuid>0e3d398f-db19-4e67-9a35-862e4ccebf9e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

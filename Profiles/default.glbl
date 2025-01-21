@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'pgupta@birdzi.com'</initValue>
+      <name>USERNAME</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://customerportal2.birdzi.com/dev/v1.56-2ba14d9840ffb207f68fc1b2ce508dfb0802e92c/catalog?portalUserCompanyID=3604&amp;portalUserContactID=110'</initValue>
+      <name>CATALOG_DEV_URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Appover user visper url</description>
+      <initValue>'https://customerportal2.birdzi.com/dev/v1.64-1659f6c55ca2dd9b34055799a165db3e2eac9887/offer/list?portalUserCompanyID=3604&amp;portalUserContactID=110'</initValue>
+      <name>VISPER_DEV_URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://customerportal.birdzi.com/en/web/guest/home'</initValue>
+      <name>CUSTOMER_PORTAL_URL</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

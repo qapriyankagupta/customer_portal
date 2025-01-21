@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>li_GROCERY</name>
+   <tag></tag>
+   <elementGuidId>ec1c43f3-44dd-414c-b1ab-b617d0a6af46</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.ps-content > li</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='modal_basket_offers']/div/div/div/div/div/perfect-scrollbar/div/div/div/div[3]/ul/perfect-scrollbar/div/div/li</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;GROCERY&quot;s</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>76ee12ae-a4f7-407e-8930-08e67108e573</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> GROCERY </value>
+      <webElementGuid>0bf08736-ac98-4a26-a10a-8f7312b391b6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;modal_basket_offers&quot;)/div[@class=&quot;modal-dialog&quot;]/div[@class=&quot;modal-container&quot;]/div[@class=&quot;modal-body&quot;]/div[@class=&quot;modal-content ng-invalid ng-dirty ng-touched&quot;]/div[@class=&quot;scrollbox&quot;]/perfect-scrollbar[1]/div[@class=&quot;ps&quot;]/div[@class=&quot;ps-content&quot;]/div[@class=&quot;form-group boffer-elem ng-invalid ng-dirty ng-touched&quot;]/div[@class=&quot;select-container dd basketTemp&quot;]/ul[@class=&quot;select-menu&quot;]/perfect-scrollbar[1]/div[@class=&quot;ps&quot;]/div[@class=&quot;ps-content&quot;]/li[1]</value>
+      <webElementGuid>441f8b72-8f32-4d45-be40-32e44d21ec44</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='modal_basket_offers']/div/div/div/div/div/perfect-scrollbar/div/div/div/div[3]/ul/perfect-scrollbar/div/div/li</value>
+      <webElementGuid>b15f2cfb-23e8-4099-bcd9-a8b30cbd8da1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select'])[1]/following::li[1]</value>
+      <webElementGuid>ddfebb6b-ab0d-48b1-809b-3004fc7cd3b6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='in'])[1]/following::li[1]</value>
+      <webElementGuid>7779c23d-4a4b-45ee-8c90-ee0c01011d9b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='MEAT'])[1]/preceding::li[1]</value>
+      <webElementGuid>1ac8d891-e92c-455e-97f1-25b6a2941811</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='+'])[4]/preceding::li[2]</value>
+      <webElementGuid>594b2282-35de-4de1-ba45-ac981d01d133</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='GROCERY']/parent::*</value>
+      <webElementGuid>84c63517-0661-4279-8d1f-5aad14cb6ad4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/li</value>
+      <webElementGuid>d7c30c22-0f7d-4382-99e8-c4270c2807c3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = ' GROCERY ' or . = ' GROCERY ')]</value>
+      <webElementGuid>7e124786-b7e3-4202-b280-8d7a6b6feac7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
