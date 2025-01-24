@@ -6,12 +6,12 @@
    <elementGuidId>7587d148-93e4-4730-ab41-c42560a69dc6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>button.search_btn</value>
+         <key>XPATH</key>
+         <value>//div[@id='lef-panel-filter']/div[2]/button</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Search for a customer'])[1]/following::button[1]</value>
+         <key>CSS</key>
+         <value>button.fun-btn.search-btn</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,15 +29,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>76bc6588-863b-4eb8-b3f8-20bd517bb60c</webElementGuid>
+      <webElementGuid>1f8a9d5a-46ed-419d-814c-86149708e22e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>search_btn</value>
-      <webElementGuid>99aa97b3-2cb2-4263-bdb2-d0056efaa704</webElementGuid>
+      <value>fun-btn search-btn</value>
+      <webElementGuid>73c577fd-6966-415e-a393-32c72e25ef6a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,23 +45,55 @@
       <name>text</name>
       <type>Main</type>
       <value>Search</value>
-      <webElementGuid>2056e1f5-b2e3-43f5-ac7a-61b9862f728e</webElementGuid>
+      <webElementGuid>f1add389-e82f-4766-9630-009df895ec25</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/app-root[1]/app-site-layout[1]/div[@class=&quot;container&quot;]/div[@class=&quot;portlet-body&quot;]/app-search-customer[1]/div[@class=&quot;supportApp&quot;]/section[@class=&quot;offers_list_personal&quot;]/div[@class=&quot;offer_upper_section&quot;]/div[@class=&quot;offer_section&quot;]/button[@class=&quot;search_btn&quot;]</value>
-      <webElementGuid>5aa1e6d1-6026-40ef-8438-8952eac4c4f6</webElementGuid>
+      <value>id(&quot;lef-panel-filter&quot;)/div[@class=&quot;search-box&quot;]/button[@class=&quot;fun-btn search-btn&quot;]</value>
+      <webElementGuid>de0f9f1c-24d3-4f99-9d3e-3c4c29f7b572</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='lef-panel-filter']/div[2]/button</value>
+      <webElementGuid>e9673d59-b95c-4f96-9e86-dcb6f04f371e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search for a customer'])[1]/following::button[1]</value>
-      <webElementGuid>5eb4fc13-c20c-415e-bb7e-9b872ec4cd45</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Non-Categorized'])[1]/following::button[1]</value>
+      <webElementGuid>661aadd4-c637-423d-9134-726a45fb66e6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='General Merchandise'])[1]/following::button[1]</value>
+      <webElementGuid>dce8ee5e-8679-4fe6-81d9-24d104cfb97d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Find Images'])[1]/preceding::button[1]</value>
+      <webElementGuid>c7dfee7e-1dcb-49db-8110-02c071217fdd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search'])[2]/preceding::button[1]</value>
+      <webElementGuid>76c6b0c4-6061-4744-8a1f-6efc890940d5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Search']/parent::*</value>
-      <webElementGuid>d9730feb-49c8-4d0d-88c3-2e38aa2e547c</webElementGuid>
+      <webElementGuid>b15a400f-8be5-42a8-8987-c6ec9f537840</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +109,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button</value>
-      <webElementGuid>1dd9f91d-08f5-4b07-86d0-226c6c3b9d35</webElementGuid>
+      <webElementGuid>d37b0284-8774-4dba-9224-a76c5baa47bb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +117,15 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'Search' or . = 'Search')]</value>
-      <webElementGuid>491a8998-1387-4265-b566-eba3f254aaa5</webElementGuid>
+      <webElementGuid>281b1374-c978-4768-af96-65a7d1f99064</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search for a customer'])[1]/following::button[1]</value>
+      <webElementGuid>5eb4fc13-c20c-415e-bb7e-9b872ec4cd45</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

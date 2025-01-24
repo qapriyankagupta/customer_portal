@@ -16,12 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import org.openqa.selenium.By as By
-import org.openqa.selenium.WebElement as WebElement
-import org.openqa.selenium.support.ui.WebDriverWait as WebDriverWait
-import org.openqa.selenium.support.ui.ExpectedConditions as ExpectedConditions
 
-//------------------------------------------------------------------------------------------------------------
 WebUI.callTestCase(findTestCase('Dev Env Portal Smoke Test/Dev Login/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 // Step 4: Set the sessionKey cookie in the browser with correct parameters
@@ -32,7 +27,6 @@ String setCookieForSecondTab = """
                       "; domain=.birdzi.com; path=/; expires=Session";
 """
 
-
 // Correct the variable name to use 'setCookieForSecondTab'
 WebUI.executeJavaScript(setCookieForSecondTab, null)
 
@@ -42,37 +36,34 @@ String catalogUrl = GlobalVariable.CATALOG_DEV_URL
 // Navigate to the dynamically stored URL
 WebUI.navigateToUrl(catalogUrl)
 
-//-----------------------------------------------------------------------------------------------------------
-'Enter cheese and search'
-WebUI.setText(findTestObject('Object Repository/Page_Birdzi/input_Categories_ng-untouched ng-pristine ng-valid'), 'cheese')
+WebUI.click(findTestObject('Object Repository/Page_Birdzi/span_All Root Categories'))
 
-//WebUI.click(findTestObject('Object Repository/Page_Birdzi/button_Search'))
-WebUI.sendKeys(findTestObject('Object Repository/Page_Birdzi/input_Categories_ng-untouched ng-pristine ng-valid'), Keys.chord(Keys.ENTER))
+'click Product\r\n'
+WebUI.click(findTestObject('Object Repository/Page_Birdzi/li_Produce'))
 
+'click and focus cursor on search input field'
+WebUI.click(findTestObject('Object Repository/Page_Birdzi/input_Non-Categorized_ng-untouched ng-prist_f135bd'))
+
+WebUI.setText(findTestObject('Object Repository/Page_Birdzi/input_Non-Categorized_ng-untouched ng-prist_f135bd'), 'milk')
+
+WebUI.sendKeys(findTestObject('Object Repository/Page_Birdzi/input_Categories_ng-untouched ng-pristine ng-valid'), Keys.chord(
+        Keys.ENTER))
 
 WebUI.click(findTestObject('Parameterized/Products List', [('index') : index]))
 
+//WebUI.click(findTestObject('Object Repository/Page_Birdzi/li_Prairie Farms Buttermilk0072730256057 Tr_6433a0'))
 
-'Click on "With Images" tab\r\n'
-WebUI.click(findTestObject('Object Repository/Page_Birdzi/span_With Images (6434)'))
+//WebUI.click(findTestObject('Object Repository/Page_Birdzi/h4_Cal Evaporated Milk'))
 
-'Click on "All" tab\r\n'
-WebUI.click(findTestObject('Object Repository/Page_Birdzi/span_All (11193)'))
+//WebUI.click(findTestObject('Object Repository/Page_Birdzi/ul_Dianas Bananas Milk Chocolate Real Banan_55c4be'))
 
-'Click on "With Images" again\r\n'
-WebUI.click(findTestObject('Object Repository/Page_Birdzi/span_With Images (6434)'))
+//WebUI.click(findTestObject('Object Repository/Page_Birdzi/li_Fannie May Cubbies Milk Chocolate Bar 2o_21b75d'))
 
-//----------------------------------------------------------Works until here----------------------------------------------------
-// Get the WebDriver instance
-//WebDriver driver = DriverFactory.getWebDriver()
-// Wait for the element to be visible
-WebDriverWait wait = new WebDriverWait(driver, 10)
+WebUI.click(findTestObject('Object Repository/Page_Birdzi/a_change image'))
 
-WebElement firstItem = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath('/html/body/app-root/app-site-layout/div/div/app-products/div/section/div[1]/div/div[5]/ul/virtual-scroller/div[2]/li[1]/h4')))
+WebUI.click(findTestObject('Object Repository/Page_Birdzi/a_Upload Image'))
 
-// Wait for the element to be clickable
-wait.until(ExpectedConditions.elementToBeClickable(firstItem))
+WebUI.click(findTestObject('Object Repository/Page_Birdzi/button_Save'))
 
-// Click on the first item
-firstItem.click()
+WebUI.closeBrowser()
 

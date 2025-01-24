@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>li_Daves Sweet Tooth Milk Chocolate Toffee0_23deb0</name>
+   <tag></tag>
+   <elementGuidId>a52586b7-4e43-4251-91fe-7a7da248134b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='lef-panel-filter']/div[5]/ul/virtual-scroller/div[2]/li[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.scrollable-content > li:nth-of-type(3)</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>li >> internal:has-text=&quot;Daves Sweet Tooth Milk Chocolate Toffee0857776003014 [Transactions: 23]17 stores&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>88531c84-8229-4dd6-8240-7483f04b4fcc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-ng-class</name>
+      <type>Main</type>
+      <value>[object Object]</value>
+      <webElementGuid>5b34545b-3233-4ee3-ab48-12b263219a56</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Daves Sweet Tooth Milk Chocolate Toffee0857776003014 [Transactions: 23]17 stores</value>
+      <webElementGuid>c78ad49f-8cff-40a0-a0e3-4af3e2f5056b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;lef-panel-filter&quot;)/div[@class=&quot;product-list&quot;]/ul[@class=&quot;scrollbox&quot;]/virtual-scroller[@class=&quot;vertical&quot;]/div[@class=&quot;scrollable-content&quot;]/li[3]</value>
+      <webElementGuid>50f2cde3-8fe5-4622-bac7-ca917183bdb4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='lef-panel-filter']/div[5]/ul/virtual-scroller/div[2]/li[3]</value>
+      <webElementGuid>50d93e55-d787-4185-87fb-d7421d175d9d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Prairie Farms Buttermilk'])[1]/following::li[1]</value>
+      <webElementGuid>e63c3ad0-a0f3-44c6-9fb9-922a9cdee948</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/li[3]</value>
+      <webElementGuid>3cc11799-f54b-44d3-8f77-50db79da1b54</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = 'Daves Sweet Tooth Milk Chocolate Toffee0857776003014 [Transactions: 23]17 stores' or . = 'Daves Sweet Tooth Milk Chocolate Toffee0857776003014 [Transactions: 23]17 stores')]</value>
+      <webElementGuid>76bc4794-b2de-4e5e-9b24-ed732342687a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

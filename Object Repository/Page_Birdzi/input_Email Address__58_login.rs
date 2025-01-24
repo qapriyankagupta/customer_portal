@@ -6,12 +6,12 @@
    <elementGuidId>2dd74381-f3ab-4f58-98c5-21aa18a55a25</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#_58_login</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@id='_58_login']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#_58_login</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>ab931920-cc38-45fd-a922-0e6af257ca77</webElementGuid>
+      <webElementGuid>b8c4be6e-8aee-42b9-bef0-b5405013137a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>field clearable</value>
-      <webElementGuid>9a449c37-0821-4c7f-9dfc-d6a88de895f0</webElementGuid>
+      <webElementGuid>c2fc58ad-af15-4ac8-be24-69ce92fd867e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>id</name>
       <type>Main</type>
       <value>_58_login</value>
-      <webElementGuid>53cb3fb4-ffca-47e7-b563-0bcd1dfbeb9e</webElementGuid>
+      <webElementGuid>d5f16a14-f2ec-4650-a471-d70aa73c12e3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>name</name>
       <type>Main</type>
       <value>_58_login</value>
-      <webElementGuid>2404e9fc-2c80-4dae-b48a-0001ee5bcb6b</webElementGuid>
+      <webElementGuid>3712939c-803a-47a4-8b20-b06723db0a29</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>type</name>
       <type>Main</type>
       <value>email</value>
-      <webElementGuid>5a427c1d-c21e-43ed-94e5-0b4c087fff1d</webElementGuid>
+      <webElementGuid>2299632a-cc69-4610-87d6-7879a1c5e286</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;_58_login&quot;)</value>
-      <webElementGuid>f15bb640-79da-4cf3-9632-63e453acdd46</webElementGuid>
+      <webElementGuid>476d9dbf-504d-461a-8df5-a4a9b3fe3f38</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +77,31 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='_58_login']</value>
-      <webElementGuid>0f974545-145b-4b76-9543-3b4bb6fcc5f3</webElementGuid>
+      <webElementGuid>dd73458b-0689-4d87-b0ee-f1ffd7102269</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='yui_patched_v3_11_0_1_1737716879232_177']/input</value>
+      <webElementGuid>f1b89408-5754-4479-8229-97a2ee8c300f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/input</value>
+      <webElementGuid>c9393d45-2910-496c-811c-0f1e3ef3aaae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@id = '_58_login' and @name = '_58_login' and @type = 'email']</value>
+      <webElementGuid>1a96b71a-c8f6-420f-9a2a-28b8b47ab6fc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,22 +110,6 @@
       <type>Main</type>
       <value>//form[@id='_58_fm']/fieldset/div/div/input</value>
       <webElementGuid>99d9933c-8184-490c-bdaf-476e9991dce8</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div/input</value>
-      <webElementGuid>cff06bbe-71bd-4ae2-9ba0-8397d0257048</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//input[@id = '_58_login' and @name = '_58_login' and @type = 'email']</value>
-      <webElementGuid>f67e1468-6c35-483c-9402-f8f0c84ffbb7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

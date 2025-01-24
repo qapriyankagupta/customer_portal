@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>li_Prairie Farms Buttermilk0072730256057 Tr_6433a0</name>
+   <tag></tag>
+   <elementGuidId>4ff024d5-a6b3-4f8c-84cb-fee03d70c2a2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='lef-panel-filter']/div[5]/ul/virtual-scroller/div[2]/li[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.scrollable-content > li:nth-of-type(2)</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>li >> internal:has-text=&quot;Prairie Farms Buttermilk0072730256057 [Transactions: 36]0 stores&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>6d76b9e7-13bc-449e-b44f-0c4b93950152</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-ng-class</name>
+      <type>Main</type>
+      <value>[object Object]</value>
+      <webElementGuid>df90e685-d017-4d66-97f2-ad3ab2096047</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Prairie Farms Buttermilk0072730256057 [Transactions: 36]0 stores</value>
+      <webElementGuid>be39ebe4-c4ab-49b9-9ebc-7bc38e060d79</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;lef-panel-filter&quot;)/div[@class=&quot;product-list&quot;]/ul[@class=&quot;scrollbox&quot;]/virtual-scroller[@class=&quot;vertical&quot;]/div[@class=&quot;scrollable-content&quot;]/li[2]</value>
+      <webElementGuid>125dde0e-a4f6-4fb9-8407-e3df58bb74df</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='lef-panel-filter']/div[5]/ul/virtual-scroller/div[2]/li[2]</value>
+      <webElementGuid>29304908-7ebd-4ac7-ad5f-ea0a017af078</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/li[2]</value>
+      <webElementGuid>80324028-dd78-4ede-a604-b1a7338395af</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = 'Prairie Farms Buttermilk0072730256057 [Transactions: 36]0 stores' or . = 'Prairie Farms Buttermilk0072730256057 [Transactions: 36]0 stores')]</value>
+      <webElementGuid>08559f2c-865c-44ca-beb0-e8deaeb222f5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

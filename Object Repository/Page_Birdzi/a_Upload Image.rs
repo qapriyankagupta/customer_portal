@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>05c11c3d-d203-4243-94ab-abcfff87f06c</webElementGuid>
+      <webElementGuid>af170d22-1e9b-4bfc-8ccd-d4e505b43fbb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Upload Image</value>
-      <webElementGuid>d560fcec-821b-4cca-b5ed-6f9b85dd456b</webElementGuid>
+      <webElementGuid>130daf9c-03ba-48e1-894a-7214373246db</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[@class=&quot;modal-change-image explore-pop&quot;]/div[@class=&quot;modal&quot;]/div[@class=&quot;modal-dialog modal-lg modal_offer&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-body clearfix&quot;]/div[@class=&quot;modal-container&quot;]/div[@class=&quot;upload_image_block&quot;]/div[@class=&quot;search-box&quot;]/div[@class=&quot;upload_btn&quot;]/a[1]</value>
-      <webElementGuid>cd8e7578-5236-4f85-a1f7-8662c8fb1f7f</webElementGuid>
+      <webElementGuid>8953d049-4729-49c7-b3c3-fa6e6584fc0b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Upload Image')]</value>
-      <webElementGuid>7d7c9cd2-7b00-4611-b211-f72cbe5b6ffa</webElementGuid>
+      <webElementGuid>5368c255-06d3-4373-bf5d-0abb92be4e32</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Search'])[2]/following::a[1]</value>
-      <webElementGuid>88768692-1719-493e-8700-5292012280fe</webElementGuid>
+      <webElementGuid>f9a80f7b-b8a9-4d82-b945-44a58f6863e3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Find Images'])[1]/following::a[1]</value>
-      <webElementGuid>6cfb4ff8-3a57-4051-ba01-009f89dd9382</webElementGuid>
+      <webElementGuid>4c3e5e59-add6-426d-8fcb-ff8fc9f71d88</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[2]/preceding::a[1]</value>
-      <webElementGuid>9e5b3b5b-674f-4b7f-b804-02d00d991a76</webElementGuid>
+      <webElementGuid>a17e6fe7-53f6-4c17-97b3-41c1a0385432</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Done'])[1]/preceding::a[1]</value>
-      <webElementGuid>cee42cb2-6006-4004-aa90-7bfa0650441b</webElementGuid>
+      <webElementGuid>54bebcf1-6d4c-4b0f-aee7-b188319ad6f3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Upload Image']/parent::*</value>
-      <webElementGuid>faa061d7-efd6-486b-8c27-00069d257195</webElementGuid>
+      <webElementGuid>db5d6c6d-a087-4444-beab-95a6bbf5feef</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/a</value>
-      <webElementGuid>895c8132-0264-4e5b-b8f2-f1d94651fe42</webElementGuid>
+      <webElementGuid>38ce2cf1-337d-4784-8933-25d814b31292</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +109,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[(text() = 'Upload Image' or . = 'Upload Image')]</value>
-      <webElementGuid>085503e6-47cf-46e7-ace2-d1d418b07b74</webElementGuid>
+      <webElementGuid>2385daea-b85d-4cf6-bf08-44920cbaea10</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

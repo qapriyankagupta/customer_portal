@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>li_Fannie May Cubbies Milk Chocolate Bar 2o_21b75d</name>
+   <tag></tag>
+   <elementGuidId>15dfb1d8-b9d2-4abd-a57a-47cf28d164a3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='lef-panel-filter']/div[5]/ul/virtual-scroller/div[2]/li[7]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.scrollable-content > li:nth-of-type(7)</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>li >> internal:has-text=&quot;Fannie May Cubbies Milk Chocolate Bar 2oz.0052745910212 [Transactions: 0]0 store&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>3ce500bb-e339-445c-9951-5eda011e5e77</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-ng-class</name>
+      <type>Main</type>
+      <value>[object Object]</value>
+      <webElementGuid>3c1540f1-8a2f-452d-a7cb-c5498c8e27d5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Fannie May Cubbies Milk Chocolate Bar 2oz.0052745910212 [Transactions: 0]0 stores</value>
+      <webElementGuid>cfbb927e-68fc-4439-ad60-7a9baecb3dd5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;lef-panel-filter&quot;)/div[@class=&quot;product-list&quot;]/ul[@class=&quot;scrollbox&quot;]/virtual-scroller[@class=&quot;vertical&quot;]/div[@class=&quot;scrollable-content&quot;]/li[7]</value>
+      <webElementGuid>d98da2f1-f621-43bb-b023-49121bb8c740</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='lef-panel-filter']/div[5]/ul/virtual-scroller/div[2]/li[7]</value>
+      <webElementGuid>035e864b-d1ea-4aca-b371-3aa0e7a40485</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dunkin Donuts Milk Chocolate K-cup Pods Hot Cocoa Coffee'])[1]/following::li[1]</value>
+      <webElementGuid>22971736-38e1-447d-82f2-452631f0353b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/li[7]</value>
+      <webElementGuid>59764f0d-98e4-40ca-a460-de7eb856f6fa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = 'Fannie May Cubbies Milk Chocolate Bar 2oz.0052745910212 [Transactions: 0]0 stores' or . = 'Fannie May Cubbies Milk Chocolate Bar 2oz.0052745910212 [Transactions: 0]0 stores')]</value>
+      <webElementGuid>027b27ea-4e4c-4d05-ae5b-60842ab03a14</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
