@@ -17,23 +17,28 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Prod Env Portal Smoke Test/Login/Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Dev Env Portal Smoke Test/Dev Login/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 // Step 4: Set the sessionKey cookie in the browser with correct parameters
 String sessionKey = 'MDEzODIxNjg5MzY3OTQwMjM3NTEwMDAwMDE3MTcyMDIyMjEyMjE0MzEyNDAzNDEyMTc0NjMxMiswMA=='
 
-String setCookieForSecondTab = """
+String setCookieForSecondTab = "
     document.cookie = "sessionKey=" + '$sessionKey' + 
                       "; domain=.birdzi.com; path=/; expires=Session";
-"""
-
+"
 
 // Correct the variable name to use 'setCookieForSecondTab'
 WebUI.executeJavaScript(setCookieForSecondTab, null)
 
-//WebUI.executeJavaScript(setCookieScript, null)
-WebUI.navigateToUrl('https://customerportal2.birdzi.com/dev/v1.64-1659f6c55ca2dd9b34055799a165db3e2eac9887/offer/list?portalUserCompanyID=3604&portalUserContactID=110')
+//--------------------------------------------------------------------------------------------------------
+//WebUI.navigateToUrl('https://customerportal2.birdzi.com/dev/v1.64-1659f6c55ca2dd9b34055799a165db3e2eac9887/offer/list?portalUserCompanyID=3604&portalUserContactID=110')
+// Get the value of the VISPER_DEV_URL from the profile
+String visperUrl = GlobalVariable.VISPER_DEV_URL
 
+// Navigate to the dynamically stored URL
+WebUI.navigateToUrl(visperUrl)
+
+//---------------------------------------------------------------------------------------------------------
 WebUI.click(findTestObject('Object Repository/Page_Birdzi/span_Visper'))
 
 WebUI.click(findTestObject('Object Repository/Page_Birdzi/span_Visper'))

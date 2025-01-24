@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Login>verify offers page>My account>Logout</description>
+   <description>Login>My account>Logout</description>
    <name>Login</name>
    <tag>@login @logout @mypage @offers</tag>
    <comment></comment>

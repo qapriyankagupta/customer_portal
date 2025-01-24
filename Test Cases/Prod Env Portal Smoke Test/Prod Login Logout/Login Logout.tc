@@ -6,4 +6,30 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>56f58f35-c697-41a3-af50-bf8b25d18145</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8359659c-d190-40a1-b8ba-5693a415dea6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>59c14bfe-5808-4c00-ae36-ce1863c40320</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'pgupta+coborns@birdzi.com'</defaultValue>
+      <description></description>
+      <id>8359659c-d190-40a1-b8ba-5693a415dea6</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'aCfAyMx3l1MdmFBz54hP7A=='</defaultValue>
+      <description></description>
+      <id>59c14bfe-5808-4c00-ae36-ce1863c40320</id>
+      <masked>false</masked>
+      <name>passwd</name>
+   </variable>
 </TestCaseEntity>

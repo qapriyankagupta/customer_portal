@@ -17,17 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://customerportal.birdzi.com/en/web/guest/home')
-
-WebUI.maximizeWindow()
-
-WebUI.setText(findTestObject('Object Repository/Page_Birdzi/input_Email Address__58_login'), 'pgupta+coborns@birdzi.com')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Birdzi/input_Password__58_password'), 'aCfAyMx3l1MdmFBz54hP7A==')
-
-WebUI.click(findTestObject('Object Repository/Page_Birdzi/button_Sign In'))
+WebUI.callTestCase(findTestCase('Prod Env Portal Smoke Test/Login/Login'), [('email') : 'pgupta+coborns@birdzi.com', ('paswd') : 'aCfAyMx3l1MdmFBz54hP7A=='], 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/Page_Birdzi/a_Priyanka Gupta'))
 

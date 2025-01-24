@@ -22,20 +22,24 @@ import org.openqa.selenium.support.ui.WebDriverWait as WebDriverWait
 import org.openqa.selenium.support.ui.ExpectedConditions as ExpectedConditions
 
 //------------------------------------------------------------------------------------------------------------
-WebUI.callTestCase(findTestCase('Prod Env Portal Smoke Test/Login/Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Dev Env Portal Smoke Test/Dev Login/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 // Step 4: Set the sessionKey cookie in the browser with correct parameters
 String sessionKey = 'MDEzODIxNjg5MzY3OTQwMjM3NTEwMDAwMDE3MTcyMDIyMjEyMjE0MzEyNDAzNDEyMTc0NjMxMiswMA=='
 
-String setCookieForSecondTab = """
+String setCookieForSecondTab = "
     document.cookie = "sessionKey=" + '$sessionKey' + 
                       "; domain=.birdzi.com; path=/; expires=Session";
-"""
+"
+
 // Correct the variable name to use 'setCookieForSecondTab'
 WebUI.executeJavaScript(setCookieForSecondTab, null)
 
-//WebUI.executeJavaScript(setCookieScript, null)
-WebUI.navigateToUrl('https://customerportal2.birdzi.com/dev/v1.49-44af5b6b9a132b03ec26bdfb356e57370189200f/catalog?portalUserCompanyID=3604&portalUserContactID=110')
+// Get the value of the CATALOG_DEV_URL from the profile
+String catalogUrl = GlobalVariable.CATALOG_DEV_URL
+
+// Navigate to the dynamically stored URL
+WebUI.navigateToUrl(catalogUrl)
 
 //-----------------------------------------------------------------------------------------------------------
 'Enter cheese and search'
@@ -54,7 +58,6 @@ WebUI.click(findTestObject('Object Repository/Page_Birdzi/span_All (11193)'))
 WebUI.click(findTestObject('Object Repository/Page_Birdzi/span_With Images (6434)'))
 
 //----------------------------------------------------------Works until here----------------------------------------------------
-
 // Get the WebDriver instance
 //WebDriver driver = DriverFactory.getWebDriver()
 // Wait for the element to be visible

@@ -18,24 +18,28 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 //------------------------------------------------------------------------------------------------------------
-WebUI.callTestCase(findTestCase('Prod Env Portal Smoke Test/Login/Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Dev Env Portal Smoke Test/Dev Login/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 // Step 4: Set the sessionKey cookie in the browser with correct parameters
 String sessionKey = 'MDEzODIxNjg5MzY3OTQwMjM3NTEwMDAwMDE3MTcyMDIyMjEyMjE0MzEyNDAzNDEyMTc0NjMxMiswMA=='
 
-String setCookieForSecondTab = """
+String setCookieForSecondTab = "
     document.cookie = "sessionKey=" + '$sessionKey' + 
                       "; domain=.birdzi.com; path=/; expires=Session";
-"""
+"
+
 // Correct the variable name to use 'setCookieForSecondTab'
 WebUI.executeJavaScript(setCookieForSecondTab, null)
 
-//WebUI.executeJavaScript(setCookieScript, null)
-WebUI.navigateToUrl('https://customerportal2.birdzi.com/dev/v1.56-2ba14d9840ffb207f68fc1b2ce508dfb0802e92c/support/search-customer?portalUserCompanyID=3604&portalUserContactID=110')
+//-----------------------------------------------------------------------------------------------------
+//WebUI.navigateToUrl('https://customerportal2.birdzi.com/dev/v1.56-2ba14d9840ffb207f68fc1b2ce508dfb0802e92c/support/search-customer?portalUserCompanyID=3604&portalUserContactID=110')
+// Get the value of the SUPPORT_DEV_URL from the profile
+String supportUrl = GlobalVariable.SUPPORT_DEV_URL
 
+// Navigate to the dynamically stored URL
+WebUI.navigateToUrl(supportUrl)
 
-	
-
+//-----------------------------------------------------------------------------------------------------
 WebUI.setText(findTestObject('Object Repository/Page_Birdzi/input_Search for a customer_ng-untouched ng_41970f'), 'vhauf@birdzi.com')
 
 WebUI.click(findTestObject('Object Repository/Page_Birdzi/button_Search'))
@@ -63,17 +67,12 @@ WebUI.setText(findTestObject('Object Repository/Page_Birdzi/input_Home Address_n
 WebUI.setText(findTestObject('Object Repository/Page_Birdzi/input_City_ng-untouched ng-pristine ng-valid'), 'city')
 
 //WebUI.click(findTestObject('Object Repository/Page_Birdzi/span_Arizona'))
-
 //WebUI.click(findTestObject('Object Repository/Page_Birdzi/li_Alaska'))
-
 //WebUI.click(findTestObject('Object Repository/Page_Birdzi/span_Alaska'))
-
 WebUI.setText(findTestObject('Object Repository/Page_Birdzi/input_Zip Code_ng-untouched ng-dirty ng-invalid'), '30303')
 
 //WebUI.setText(findTestObject('Object Repository/Page_Birdzi/input_MORE ID_reward ng-untouched ng-pristine'), '40000006349')
-
 //WebUI.click(findTestObject('Object Repository/Page_Birdzi/li_645 Lake Street S, Long Prairie, MN 56347'))
-
 WebUI.click(findTestObject('Object Repository/Page_Birdzi/button_Save Changes'))
 
 WebUI.click(findTestObject('Object Repository/Page_Birdzi/span_Offer Wallet'))

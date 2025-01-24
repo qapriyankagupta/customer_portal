@@ -21,11 +21,13 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl(GlobalVariable.CUSTOMER_PORTAL_URL)
+WebUI.navigateToUrl(GlobalVariable.PROD_Customer_Portal_URL)
 
-WebUI.setText(findTestObject('Object Repository/Page_Birdzi/input_Email Address__58_login'), 'pgupta+coborns@birdzi.com')
+WebUI.delay(2)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Birdzi/input_Password__58_password'), 'aCfAyMx3l1MdmFBz54hP7A==')
+WebUI.setText(findTestObject('Object Repository/Page_Birdzi/input_Email Address__58_login'), email)
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Birdzi/input_Password__58_password'), paswd)
 
 WebUI.click(findTestObject('Object Repository/Page_Birdzi/Page_Birdzi/button_Sign In'))
 

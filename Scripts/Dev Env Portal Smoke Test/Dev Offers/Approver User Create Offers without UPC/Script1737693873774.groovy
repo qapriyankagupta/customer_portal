@@ -16,16 +16,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import com.kms.katalon.core.testobject.TestObject
-import com.kms.katalon.core.testobject.ConditionType
-import java.text.SimpleDateFormat
-import java.util.Calendar
-import java.util.Date
+import com.kms.katalon.core.testobject.ConditionType as ConditionType
+import java.text.SimpleDateFormat as SimpleDateFormat
+import java.util.Calendar as Calendar
+import java.util.Date as Date
 
 //------------------------------------------------------------------------------------------------------------
-WebUI.callTestCase(findTestCase('Prod Env Portal Smoke Test/Login/Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Dev Env Portal Smoke Test/Dev Login/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 // Step 4: Set the sessionKey cookie in the browser with correct parameters
 String sessionKey = 'MDEzODIxNjg5MzY3OTQwMjM3NTEwMDAwMDE3MTcyMDIyMjEyMjE0MzEyNDAzNDEyMTc0NjMxMiswMA=='
@@ -34,17 +31,25 @@ String setCookieForSecondTab = """
     document.cookie = "sessionKey=" + '$sessionKey' + 
                       "; domain=.birdzi.com; path=/; expires=Session";
 """
+
 // Correct the variable name to use 'setCookieForSecondTab'
 WebUI.executeJavaScript(setCookieForSecondTab, null)
 
-//WebUI.executeJavaScript(setCookieScript, null)
-WebUI.navigateToUrl('https://customerportal2.birdzi.com/dev/v1.64-1659f6c55ca2dd9b34055799a165db3e2eac9887/offer/list?portalUserCompanyID=3604&portalUserContactID=110')
-WebUI.delay(2)  // This delays for 2 seconds
+//-------------------------------------------------------------------------------------------------------------
+// Get the value of the APPROVER_OFFERS_URL from the profile
+String approverOffersUrl = GlobalVariable.APPROVER_OFFERS_DEV_URL
+
+// Navigate to the dynamically stored URL
+WebUI.navigateToUrl(approverOffersUrl)
+
+WebUI.delay(2 // This delays for 2 seconds
+    )
 
 //--------------------------------------------------------------------------------------------------------------
-
 WebUI.click(findTestObject('Object Repository/Page_Birdzi/button_Create Offer'))
-WebUI.delay(2)  // This delays for 2 seconds
+
+WebUI.delay(2 // This delays for 2 seconds
+    )
 
 WebUI.setText(findTestObject('Object Repository/Page_Birdzi/input_Offer Title_ng-untouched ng-pristine _f71de3'), 'Offer Title 123')
 
@@ -55,131 +60,169 @@ WebUI.setText(findTestObject('Object Repository/Page_Birdzi/input_Offer Name_ng-
 WebUI.setText(findTestObject('Object Repository/Page_Birdzi/textarea__ng-untouched ng-dirty ng-valid_1'), 'Terms')
 
 WebUI.click(findTestObject('Object Repository/Page_Birdzi/span_Vendor_vendor'))
-WebUI.delay(2)  // This delays for 2 seconds
+
+WebUI.delay(2 // This delays for 2 seconds
+    )
 
 WebUI.click(findTestObject('Object Repository/Page_Birdzi/li_Birdzi'))
-WebUI.delay(2)  // This delays for 2 seconds
+
+WebUI.delay(2 // This delays for 2 seconds
+    )
 
 WebUI.click(findTestObject('Object Repository/Page_Birdzi/button_Select'))
-WebUI.delay(2)  // This delays for 2 seconds
+
+WebUI.delay(2 // This delays for 2 seconds
+    )
 
 WebUI.setText(findTestObject('Object Repository/Page_Birdzi/input_Offer Code_ng-untouched ng-pristine ng-valid'), 'Offer Code')
-WebUI.delay(2)  // This delays for 2 seconds
+
+WebUI.delay(2 // This delays for 2 seconds
+    )
 
 WebUI.click(findTestObject('Object Repository/Page_Birdzi/span_All Stores'))
-WebUI.delay(2)  // This delays for 2 seconds
+
+WebUI.delay(2 // This delays for 2 seconds
+    )
 
 WebUI.click(findTestObject('Object Repository/Page_Birdzi/li_2002 - Coborns - Foley'))
-WebUI.delay(2)  // This delays for 2 seconds
+
+WebUI.delay(2 // This delays for 2 seconds
+    )
 
 WebUI.click(findTestObject('Object Repository/Page_Birdzi/button_Save'))
-WebUI.delay(2)  // This delays for 2 seconds
+
+WebUI.delay(2 // This delays for 2 seconds
+    )
 
 WebUI.click(findTestObject('Object Repository/Page_Birdzi/span_Products'))
-WebUI.delay(2)  // This delays for 2 seconds
+
+WebUI.delay(2 // This delays for 2 seconds
+    )
 
 WebUI.click(findTestObject('Object Repository/Page_Birdzi/li_0001 - GROCERY'))
-WebUI.delay(2)  // This delays for 2 seconds
+
+WebUI.delay(2 // This delays for 2 seconds
+    )
 
 WebUI.click(findTestObject('Object Repository/Page_Birdzi/button_Save_1'))
-WebUI.delay(2)  // This delays for 2 seconds
+
+WebUI.delay(2 // This delays for 2 seconds
+    )
 
 WebUI.setText(findTestObject('Object Repository/Page_Birdzi/input_Budget_ng-untouched ng-pristine ng-valid'), '5')
-WebUI.delay(2)  // This delays for 2 seconds
+
+WebUI.delay(2 // This delays for 2 seconds
+    )
 
 WebUI.click(findTestObject('Object Repository/Page_Birdzi/span_'))
-WebUI.delay(2)  // This delays for 2 seconds
+
+WebUI.delay(2 // This delays for 2 seconds
+    )
 
 WebUI.click(findTestObject('Object Repository/Page_Birdzi/li_Clips'))
-WebUI.delay(2)  // This delays for 2 seconds
+
+WebUI.delay(2 // This delays for 2 seconds
+    )
+
 //=============Today's date, End Date and Redemption Date===============================================================
 // ============================== Start Date (Today's Date) ==============================
-SimpleDateFormat startDateFormat = new SimpleDateFormat("dd")
+SimpleDateFormat startDateFormat = new SimpleDateFormat('dd')
+
 String startDate = startDateFormat.format(new Date())
 
 // Output today's date for debugging
-println("Start date (Today's date) is: " + startDate)
+println('Start date (Today\'s date) is: ' + startDate)
 
 // Click on the input field to open the datepicker for the start date (today's date)
 WebUI.click(findTestObject('Object Repository/Page_Birdzi/input_Start_startDate'))
 
 // Build the dynamic XPath to locate today's date in the calendar
-String startDateXPath = "//div[@id='ui-datepicker-div']/table/tbody//a[text()='" + startDate + "']"
+String startDateXPath = ('//div[@id=\'ui-datepicker-div\']/table/tbody//a[text()=\'' + startDate) + '\']'
 
 // Find the date element for today and click on it
 TestObject startDateElement = new TestObject().addProperty('xpath', ConditionType.EQUALS, startDateXPath)
 
 // Verify if the element exists and click it
 if (WebUI.verifyElementPresent(startDateElement, 5, FailureHandling.OPTIONAL)) {
-	WebUI.click(startDateElement)
+    WebUI.click(startDateElement)
 } else {
-	println("Start date element is not available in the calendar popup.")
+    println('Start date element is not available in the calendar popup.')
 }
 
 // ============================== End Date (10 Days After Today's Date) ==============================
-SimpleDateFormat endDateFormat = new SimpleDateFormat("dd/MM/yyyy") // Format for the end date
+SimpleDateFormat endDateFormat = new SimpleDateFormat('dd/MM/yyyy' // Format for the end date
+)
+
 Calendar calendarForEndDate = Calendar.getInstance()
-calendarForEndDate.setTime(new Date()) // Set today's date
-calendarForEndDate.add(Calendar.DAY_OF_MONTH, 10) // Add 10 days to today
+
+calendarForEndDate.setTime(new Date() // Set today's date
+    )
+
+calendarForEndDate.add(Calendar.DAY_OF_MONTH, 10 // Add 10 days to today
+    )
 
 // Get the end date in dd/MM/yyyy format
 String endDate = endDateFormat.format(calendarForEndDate.getTime())
 
 // Output the calculated end date for debugging
-println("End date (10 days after today) is: " + endDate)
+println('End date (10 days after today) is: ' + endDate)
 
 // Click on the input field to open the datepicker for the end date
 WebUI.click(findTestObject('Object Repository/Page_Birdzi/input_End_endDate'))
 
 // Extract the day (dd) from the end date (e.g., "30" from "30/01/2015")
-SimpleDateFormat endDayFormat = new SimpleDateFormat("dd")
-String endDay = endDayFormat.format(calendarForEndDate.getTime()) // Get the day part from end date
+SimpleDateFormat endDayFormat = new SimpleDateFormat('dd')
+
+String endDay = endDayFormat.format(calendarForEndDate.getTime() // Get the day part from end date
+    )
 
 // Output the extracted day for debugging
-println("End day extracted is: " + endDay)
+println('End day extracted is: ' + endDay)
 
 // Build the XPath dynamically to find the correct end date in the calendar
-String endDateXPath = "//div[@id='ui-datepicker-div']/table/tbody//a[text()='" + endDay + "']"
+String endDateXPath = ('//div[@id=\'ui-datepicker-div\']/table/tbody//a[text()=\'' + endDay) + '\']'
 
 // Find the end date element and click on it
 TestObject endDateElement = new TestObject().addProperty('xpath', ConditionType.EQUALS, endDateXPath)
 
 // Verify if the end date element exists and click it
 if (WebUI.verifyElementPresent(endDateElement, 5, FailureHandling.OPTIONAL)) {
-	WebUI.click(endDateElement)
+    WebUI.click(endDateElement)
 } else {
-	println("End date element is not available in the calendar popup.")
+    println('End date element is not available in the calendar popup.')
 }
 
 // ============================== Redemption Date (1 Day After End Date) ==============================
-calendarForEndDate.add(Calendar.DAY_OF_MONTH, 1) // Add 1 day to the end date to get redemption date
+calendarForEndDate.add(Calendar.DAY_OF_MONTH, 1 // Add 1 day to the end date to get redemption date
+    )
 
 // Get the redemption date (1 day after the end date) in dd/MM/yyyy format
 String redemptionDate = endDateFormat.format(calendarForEndDate.getTime())
 
 // Output the calculated redemption date for debugging
-println("Redemption date (1 day after the end date) is: " + redemptionDate)
+println('Redemption date (1 day after the end date) is: ' + redemptionDate)
 
 // Click on the input field to open the datepicker for the redemption date
 WebUI.click(findTestObject('Object Repository/Page_Birdzi/input_Redeemable Through_redemptionEndDate'))
 
 // Extract the day (dd) from the redemption date (e.g., "31" from "31/01/2015")
-String redemptionDay = new SimpleDateFormat("dd").format(calendarForEndDate.getTime()) // Get the day part of redemption date
+String redemptionDay = new SimpleDateFormat('dd').format(calendarForEndDate.getTime() // Get the day part of redemption date
+    )
 
 // Output the extracted redemption day for debugging
-println("Redemption day extracted is: " + redemptionDay)
+println('Redemption day extracted is: ' + redemptionDay)
 
 // Build the XPath dynamically to find the correct redemption date in the calendar
-String redemptionDateXPath = "//div[@id='ui-datepicker-div']/table/tbody//a[text()='" + redemptionDay + "']"
+String redemptionDateXPath = ('//div[@id=\'ui-datepicker-div\']/table/tbody//a[text()=\'' + redemptionDay) + '\']'
 
 // Find the redemption date element and click on it
 TestObject redemptionDateElement = new TestObject().addProperty('xpath', ConditionType.EQUALS, redemptionDateXPath)
 
 // Verify if the redemption date element exists and click it
 if (WebUI.verifyElementPresent(redemptionDateElement, 5, FailureHandling.OPTIONAL)) {
-	WebUI.click(redemptionDateElement)
+    WebUI.click(redemptionDateElement)
 } else {
-	println("Redemption date element is not available in the calendar popup.")
+    println('Redemption date element is not available in the calendar popup.')
 }
 
 // Optional: Add a delay (e.g., 2 seconds) to simulate the user interaction
@@ -188,18 +231,23 @@ WebUI.delay(2)
 //=====================================================================================================
 //WebUI.click(findTestObject('Object Repository/Page_Birdzi/input_Redeemable Through_redemptionEndDate'))
 //WebUI.click(findTestObject('Object Repository/Page_Birdzi/a_31'))
-
 WebUI.setText(findTestObject('Object Repository/Page_Birdzi/input_Discount_ng-untouched ng-pristine ng-invalid'), '5')
-WebUI.delay(2)  // This delays for 2 seconds
+
+WebUI.delay(2 // This delays for 2 seconds
+    )
 
 WebUI.click(findTestObject('Object Repository/Page_Birdzi/button_Save Changes'))
-WebUI.delay(2)  // This delays for 2 seconds
+
+WebUI.delay(2 // This delays for 2 seconds
+    )
 
 WebUI.rightClick(findTestObject('Object Repository/Page_Birdzi/div_Offer created successfully'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Birdzi/div_Send Request_float-alert float-alert-success'),
-	'Offer created successfully.')
-WebUI.delay(2)  // This delays for 2 seconds
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Birdzi/div_Send Request_float-alert float-alert-success'), 
+    'Offer created successfully.')
+
+WebUI.delay(2 // This delays for 2 seconds
+    )
 
 WebUI.closeBrowser()
 
