@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>Dev Env</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'pgupta+coborns@birdzi.com'</initValue>
+      <name>USERNAME</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://customerportal2.birdzi.com/dev/v1.56-2ba14d9840ffb207f68fc1b2ce508dfb0802e92c/catalog?portalUserCompanyID=3604&amp;portalUserContactID=110'</initValue>
+      <name>CATALOG_DEV_URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://customerportal2.birdzi.com/dev/v1.64-1659f6c55ca2dd9b34055799a165db3e2eac9887/offer/list?portalUserCompanyID=3604&amp;portalUserContactID=110'</initValue>
+      <name>VISPER_DEV_URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://customerportal.birdzi.com/en/web/guest/home'</initValue>
+      <name>CUSTOMER_PORTAL_URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>This is Approver users url vhauf@birdzi.com</description>
+      <initValue>'https://customerportal2.birdzi.com/dev/v1.66-2809181c14a169f120017206892c4e6df68c70bf/offer/list?portalUserCompanyID=3604&amp;portalUserContactID=110'</initValue>
+      <name>APPROVER_OFFERS_DEV_URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://customerportal2.birdzi.com/dev/v1.56-2ba14d9840ffb207f68fc1b2ce508dfb0802e92c/support/search-customer?portalUserCompanyID=3604&amp;portalUserContactID=110'</initValue>
+      <name>SUPPORT_DEV_URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'aCfAyMx3l1MdmFBz54hP7A=='</initValue>
+      <name>PASSWORD</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>
