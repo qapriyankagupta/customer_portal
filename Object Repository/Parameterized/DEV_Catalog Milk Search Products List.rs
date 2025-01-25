@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description>Catalog Product List</description>
-   <name>Products List</name>
+   <name>DEV_Catalog Milk Search Products List</name>
    <tag></tag>
    <elementGuidId>3f1c747e-9339-4347-a655-65ba06124e23</elementGuidId>
    <selectorCollection>
