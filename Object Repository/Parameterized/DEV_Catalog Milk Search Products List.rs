@@ -11,6 +11,11 @@
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+      </entry>
+   </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -19,6 +24,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//div[@id='lef-panel-filter']/div[5]/ul/virtual-scroller/div[2]/li[${index}]</value>
-      <webElementGuid>e3e2a843-c022-49ac-b049-5a1216b0b012</webElementGuid>
+      <webElementGuid>22222930-a3c4-4807-b4a5-b836b842d7ad</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

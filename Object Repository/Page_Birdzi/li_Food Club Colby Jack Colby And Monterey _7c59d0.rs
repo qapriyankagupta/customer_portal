@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>li_Food Club Colby Jack Colby And Monterey _7c59d0</name>
+   <tag></tag>
+   <elementGuidId>26ae9763-7a2a-4a4e-9edf-a2cf9380ed56</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='lef-panel-filter']/div[5]/ul/virtual-scroller/div[2]/li[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.scrollable-content > li:nth-of-type(2)</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>li >> internal:has-text=&quot;Food Club Colby Jack Colby And Monterey Jack Deli-style Sliced Cheese [at 52 sto&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>a74c0e3f-6abf-48c8-8c88-a7a19ff99b3a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-ng-class</name>
+      <type>Main</type>
+      <value>[object Object]</value>
+      <webElementGuid>f90ed133-b1f3-4490-9dbb-120eb7fea24a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Food Club Colby Jack Colby And Monterey Jack Deli-style Sliced Cheese [at 52 stores]0036800051577 [Transactions: 11288]52 stores</value>
+      <webElementGuid>fe29e649-49fa-40eb-aaf2-e280a08875d6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;lef-panel-filter&quot;)/div[@class=&quot;product-list&quot;]/ul[@class=&quot;scrollbox&quot;]/virtual-scroller[@class=&quot;vertical&quot;]/div[@class=&quot;scrollable-content&quot;]/li[2]</value>
+      <webElementGuid>f635b431-d4dc-463b-bdbb-f1d7aa489a3d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='lef-panel-filter']/div[5]/ul/virtual-scroller/div[2]/li[2]</value>
+      <webElementGuid>47f07569-394c-49b8-b6a4-192c043da57e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Borden® American Cheese Singles 16-0.75 oz. Slices [at 45 stores]'])[1]/following::li[1]</value>
+      <webElementGuid>9d544045-18f0-4211-9412-6c0f863e5ba7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/li[2]</value>
+      <webElementGuid>e7eedee1-5a71-4da4-8185-f74549d19bb7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = 'Food Club Colby Jack Colby And Monterey Jack Deli-style Sliced Cheese [at 52 stores]0036800051577 [Transactions: 11288]52 stores' or . = 'Food Club Colby Jack Colby And Monterey Jack Deli-style Sliced Cheese [at 52 stores]0036800051577 [Transactions: 11288]52 stores')]</value>
+      <webElementGuid>4708917f-473f-484e-b25e-fb5dca3d444c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>li</value>
-      <webElementGuid>f67b6c82-d2dc-46f8-9dbb-5e303576750f</webElementGuid>
+      <webElementGuid>36853f44-e01e-437f-ac53-1bfadc9295d5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>ng-reflect-ng-class</name>
       <type>Main</type>
       <value>[object Object]</value>
-      <webElementGuid>45665791-d2f6-458c-90cb-5ceaffc74b30</webElementGuid>
+      <webElementGuid>730fffdb-6fcc-4abe-9586-c12f70efafa2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Produce</value>
-      <webElementGuid>04cf9003-6a73-4269-b600-fdf41bdac086</webElementGuid>
+      <webElementGuid>b721004a-ef55-4c04-bb4b-d4d40dc7f36b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;select-manu-options&quot;)/li[2]</value>
-      <webElementGuid>5546a1e8-f4a6-4a19-837b-83a2d14be914</webElementGuid>
+      <webElementGuid>1feafc60-5787-4556-81cc-a8a51fc708ed</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//ul[@id='select-manu-options']/li[2]</value>
-      <webElementGuid>ada8a565-a37a-4788-a34f-8a352676b2ae</webElementGuid>
+      <webElementGuid>3838f90a-bfcd-4c8f-87a7-12495dc8300a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='All Root Categories'])[2]/following::li[1]</value>
-      <webElementGuid>9ce62a19-6ff7-4794-9bc1-d078d5621cd7</webElementGuid>
+      <webElementGuid>461218e6-7196-447e-8694-f6bcad421748</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='All Root Categories'])[1]/following::li[2]</value>
-      <webElementGuid>11d70ad6-c2a2-4055-9bea-766073417c9e</webElementGuid>
+      <webElementGuid>09738a29-742e-473a-a94a-11e7aaa2c512</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Dairy, Eggs &amp; Cheese'])[1]/preceding::li[1]</value>
-      <webElementGuid>6f657d4b-a2ee-40fb-8f05-14da3ad831a0</webElementGuid>
+      <webElementGuid>cb012cb6-32ec-4ae8-9130-c91659f45573</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Packaged Foods'])[1]/preceding::li[2]</value>
-      <webElementGuid>6075b1c4-51a8-4d38-a08f-0fc251eac537</webElementGuid>
+      <webElementGuid>9c1cc252-2a33-4284-b6fc-e2ac858f0119</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Produce']/parent::*</value>
-      <webElementGuid>95af7e12-78a0-41ca-a3fe-9ef8db19446a</webElementGuid>
+      <webElementGuid>34971346-2e3f-4156-b74a-5a4827842082</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//section/div/div/div/div/ul/li[2]</value>
-      <webElementGuid>c5a74dda-1d34-4aa8-a0d0-2c22c95eaa2c</webElementGuid>
+      <webElementGuid>21426455-63c7-41bd-b2c6-23009bb428cd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//li[(text() = 'Produce' or . = 'Produce')]</value>
-      <webElementGuid>f3978685-f804-48eb-8865-8f1d1336f056</webElementGuid>
+      <webElementGuid>14a12829-35e4-45f4-bbd3-dc3356f231e1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cookies, Snacks &amp; Candy'])[2]/following::li[1]</value>
-      <webElementGuid>709f2e93-ce6d-46c2-9b94-4f235a941e14</webElementGuid>
+      <webElementGuid>b94447d0-ad18-415a-b253-f539100f6f14</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Root Category'])[1]/following::li[1]</value>
-      <webElementGuid>5b4279e0-b809-4566-a4d3-74e84b408a61</webElementGuid>
+      <webElementGuid>04456b0c-a547-49fd-826d-7da54b22eb5e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,7 +141,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Dairy, Eggs &amp; Cheese'])[2]/preceding::li[1]</value>
-      <webElementGuid>1ee03dd7-db0e-411e-8c14-5c129a1cdc5a</webElementGuid>
+      <webElementGuid>22e46c2b-23ce-416c-9da9-a9cceebe7707</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -149,7 +149,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Packaged Foods'])[2]/preceding::li[2]</value>
-      <webElementGuid>5cd59000-8d22-4ea6-adbf-d5a776b88199</webElementGuid>
+      <webElementGuid>039c7a85-f393-452b-94ab-ec9a8c3783f6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -157,6 +157,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/ul/li</value>
-      <webElementGuid>3cd0c292-9729-4775-92d7-a433a071b0f0</webElementGuid>
+      <webElementGuid>1234fb95-9b4a-41b2-9eca-6edea5a6325e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

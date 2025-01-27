@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_All Root Categories</name>
+   <name>span_Produce</name>
    <tag></tag>
-   <elementGuidId>1e200368-10f7-4766-aa79-39fc9e599280</elementGuidId>
+   <elementGuidId>ef2ddd32-4ee8-4627-b796-3a4472a9d7dc</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -18,7 +18,7 @@
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>span >> internal:has-text=&quot;All Root Categories&quot;i</value>
+         <value>span >> internal:has-text=&quot;Produce&quot;i</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>f6004927-4443-4f42-a660-e8e0d83e9ca2</webElementGuid>
+      <webElementGuid>e8022250-6002-498c-b849-1ec8b80e4741</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>name</name>
       <type>Main</type>
       <value>prodcategory</value>
-      <webElementGuid>08e8a82f-567c-476d-83b6-fcbacc58566a</webElementGuid>
+      <webElementGuid>c3d6f26f-3ef8-4174-9b6a-1c5427287ded</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,15 +45,15 @@
       <name>class</name>
       <type>Main</type>
       <value>select select-menu-toggle</value>
-      <webElementGuid>b4acdb61-50d6-4573-8aa9-05d717cbfc74</webElementGuid>
+      <webElementGuid>8002c8f4-c55f-45cd-be3e-b1bd23b193c2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>All Root Categories</value>
-      <webElementGuid>9e293617-d97a-47f5-88d1-c204e54a99c6</webElementGuid>
+      <value>Produce</value>
+      <webElementGuid>cdf917d5-573b-4ae8-98ba-233540efef78</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;lef-panel-filter&quot;)/div[@class=&quot;form-group catdd&quot;]/div[@class=&quot;select-container&quot;]/span[@class=&quot;select select-menu-toggle&quot;]</value>
-      <webElementGuid>62c3837a-38ca-4d55-899c-772aa25748f4</webElementGuid>
+      <webElementGuid>224d0766-d30f-449a-bc71-ce7cd508ca9e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//span[@name='prodcategory']</value>
-      <webElementGuid>30bef114-8383-4ee4-8ec8-f56315e22bbc</webElementGuid>
+      <webElementGuid>00b0a074-f3cb-453b-bf7e-69b544cce673</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='lef-panel-filter']/div/div/span</value>
-      <webElementGuid>9d953d33-65f5-4737-b7b3-1ec1023ee994</webElementGuid>
+      <webElementGuid>ddd08c12-201e-41fe-b1de-64706cbddbd5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Categories'])[1]/following::span[1]</value>
-      <webElementGuid>6f4c31b2-69e8-442f-867c-6aa29f35459e</webElementGuid>
+      <webElementGuid>0d5fc696-1bb2-4587-aac4-60b752b81e7b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,31 +93,31 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Products'])[1]/following::span[1]</value>
-      <webElementGuid>bccababc-817f-435c-b5c1-17c30a765078</webElementGuid>
+      <webElementGuid>ccb0f869-6eab-4a96-8966-4b00109f2b6f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='All Root Categories'])[2]/preceding::span[1]</value>
-      <webElementGuid>68b7dae3-909e-4b74-8844-30b2a212f871</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='All Root Categories'])[1]/preceding::span[1]</value>
+      <webElementGuid>0bea3540-2c71-4a6f-8f5b-064ee386d8ef</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Produce'])[1]/preceding::span[1]</value>
-      <webElementGuid>d1f5d7b0-a470-471c-ae41-b32e82145cf8</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Produce'])[2]/preceding::span[1]</value>
+      <webElementGuid>27bb4a2a-fcc2-493b-adc2-6b1ae6c4f06e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='All Root Categories']/parent::*</value>
-      <webElementGuid>c0f7b0d2-31c4-42b1-a6ac-bcdf7015ca9c</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Produce']/parent::*</value>
+      <webElementGuid>0cfcde3b-6a62-48da-8518-79d7fad4b04a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,38 +125,14 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/span</value>
-      <webElementGuid>fbeac30c-8e96-4329-965e-5ffab8752e36</webElementGuid>
+      <webElementGuid>46cb6b4c-6599-4a77-b9ac-8abf8b9ffe98</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//span[@name = 'prodcategory' and (text() = 'All Root Categories' or . = 'All Root Categories')]</value>
-      <webElementGuid>4dc4b668-a88e-4f33-a946-33a08362cf08</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search'])[1]/following::span[1]</value>
-      <webElementGuid>6c72b3ef-b72b-47dd-b418-325bdff053c9</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Categories'])[1]/following::span[2]</value>
-      <webElementGuid>62586b55-30df-48bf-b456-e0030b1668de</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div[2]/div/span</value>
-      <webElementGuid>ca234fb7-257b-46b7-ba5d-ec1606b190af</webElementGuid>
+      <value>//span[@name = 'prodcategory' and (text() = 'Produce' or . = 'Produce')]</value>
+      <webElementGuid>9bde53f6-4cec-4be2-a93c-bd87488f0153</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

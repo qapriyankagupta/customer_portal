@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Upload Image</name>
+   <name>a_Reset to default image</name>
    <tag></tag>
-   <elementGuidId>d65a9ce0-1129-4881-92e6-cbe522b8ea1d</elementGuidId>
+   <elementGuidId>bee7ec75-beab-47fa-b633-76a2c1584024</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(text(),'Upload Image')]</value>
+         <value>//a[contains(text(),'Reset to default image')]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>div.upload_btn > a</value>
+         <value>p:nth-of-type(2) > a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:text=&quot;Upload Image&quot;i</value>
+         <value>internal:text=&quot;Reset to default image&quot;i</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,86 +29,86 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>29a21e93-2928-4c1c-af32-8779ae543f87</webElementGuid>
+      <webElementGuid>2c39cf5c-eabe-473d-bff1-1dbbb70235ab</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Upload Image</value>
-      <webElementGuid>579ae2a5-4196-40af-8a3c-cf23044f1ff8</webElementGuid>
+      <value>Reset to default image</value>
+      <webElementGuid>c7285632-bcc7-47c1-8532-7e91917cdea5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/div[@class=&quot;modal-change-image explore-pop&quot;]/div[@class=&quot;modal&quot;]/div[@class=&quot;modal-dialog modal-lg modal_offer&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-body clearfix&quot;]/div[@class=&quot;modal-container&quot;]/div[@class=&quot;upload_image_block&quot;]/div[@class=&quot;search-box&quot;]/div[@class=&quot;upload_btn&quot;]/a[1]</value>
-      <webElementGuid>98e2aeb3-6975-4a14-9ac2-a2cb71a038e1</webElementGuid>
+      <value>/html[1]/body[1]/app-root[1]/app-site-layout[1]/div[@class=&quot;container&quot;]/div[@class=&quot;portlet-body&quot;]/app-products[1]/div[@class=&quot;catalogApp&quot;]/section[@class=&quot;container product-view&quot;]/div[@class=&quot;row row-flex&quot;]/div[@class=&quot;detail-wrap&quot;]/form[@class=&quot;catalog-form ng-untouched ng-valid ng-pristine&quot;]/div[@class=&quot;catalog_prod_info_form&quot;]/div[@class=&quot;first_info left-col&quot;]/div[@class=&quot;product-img&quot;]/p[2]/a[1]</value>
+      <webElementGuid>06dc9aee-0722-432b-9658-31c0781c181e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'Upload Image')]</value>
-      <webElementGuid>be3952dc-50c4-4ee1-863f-3c60b34607df</webElementGuid>
+      <value>//a[contains(text(),'Reset to default image')]</value>
+      <webElementGuid>61db01da-2a7a-428a-a50b-daffd416806f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search'])[2]/following::a[1]</value>
-      <webElementGuid>33c57b7d-1c2d-4f77-8db3-8279e3928b8a</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Change image'])[1]/following::a[1]</value>
+      <webElementGuid>553a90d6-2c0b-4856-a497-07b0281758b9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Find Images'])[1]/following::a[1]</value>
-      <webElementGuid>48277090-f631-46ea-808d-bfece3b0bc31</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='UPC'])[1]/following::a[2]</value>
+      <webElementGuid>28d7675a-e78d-4239-b447-22d4c850dd3c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[2]/preceding::a[1]</value>
-      <webElementGuid>77f60bbb-aff6-4f78-9493-750bfa9d848f</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Root Category'])[1]/preceding::a[1]</value>
+      <webElementGuid>5b6931c0-5fac-4388-baeb-e90ba04910c7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Done'])[1]/preceding::a[1]</value>
-      <webElementGuid>35fd82c6-d620-4f97-93f1-444cf36a7c9f</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Produce'])[3]/preceding::a[1]</value>
+      <webElementGuid>19d7da56-47ff-4c64-972f-e6e6b05103cf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Upload Image']/parent::*</value>
-      <webElementGuid>cf33cd9e-de6e-46f9-8ac1-f030acf8cb32</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Reset to default image']/parent::*</value>
+      <webElementGuid>869e0438-6a4c-43a0-8d6f-99a7c56c1394</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/a</value>
-      <webElementGuid>71200ea1-ac34-4260-8748-604663dd72d9</webElementGuid>
+      <value>//p[2]/a</value>
+      <webElementGuid>b0c90b07-c998-448b-8e66-d31ba14e654d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[(text() = 'Upload Image' or . = 'Upload Image')]</value>
-      <webElementGuid>13408f05-a892-4e52-84d4-b8870058a26d</webElementGuid>
+      <value>//a[(text() = 'Reset to default image' or . = 'Reset to default image')]</value>
+      <webElementGuid>b2dd32d1-dd5b-41e8-bbc6-cc97111f5e6d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

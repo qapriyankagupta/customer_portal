@@ -6,12 +6,12 @@
    <elementGuidId>0944d2ac-ddb4-43d4-9d23-f2c299ab5a05</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#navigation</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='navigation']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#navigation</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>e1b1dcd3-5663-4dde-a49f-b932973fb308</webElementGuid>
+      <webElementGuid>35944dc8-78cc-4370-90ed-b1310df9dd65</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>id</name>
       <type>Main</type>
       <value>navigation</value>
-      <webElementGuid>371d10bd-d135-4c6f-ac9d-f38e5c789e59</webElementGuid>
+      <webElementGuid>08bb7527-02b0-4d4d-8de9-05efdd75fd52</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -99,7 +99,7 @@
 			
 		
 					</value>
-      <webElementGuid>609fbef5-85ba-4b27-a495-188eed58c827</webElementGuid>
+      <webElementGuid>e080c716-196b-44d2-87cd-a2d6a8ab1650</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -107,7 +107,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;navigation&quot;)</value>
-      <webElementGuid>f58fb8dd-ac1e-4f4b-aad4-2c7b18d36e19</webElementGuid>
+      <webElementGuid>e1f11007-ab16-4cee-bdd6-f3dbeeba17a9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -115,7 +115,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//div[@id='navigation']</value>
-      <webElementGuid>bde1004e-e12c-4082-bcbc-91c12842ec1a</webElementGuid>
+      <webElementGuid>ca1e4b0a-8c41-46c6-804a-623b5cf33b7b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -123,7 +123,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='header']/div</value>
-      <webElementGuid>eeb79d95-d7a6-4ff8-886e-cb6f450c3498</webElementGuid>
+      <webElementGuid>4bc5f9d6-f1ae-4243-8199-8acbf775622c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -131,7 +131,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/div</value>
-      <webElementGuid>2f946b72-c5e4-44ff-b500-777b6ee9a771</webElementGuid>
+      <webElementGuid>ab306fc5-19b7-4790-9346-913922b37032</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -247,6 +247,6 @@
 			
 		
 					&quot;))]</value>
-      <webElementGuid>b855f9c3-104e-4751-b08c-c4ae92760d7a</webElementGuid>
+      <webElementGuid>a304a385-fb28-4f62-9ba7-e6eb2afa5c45</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

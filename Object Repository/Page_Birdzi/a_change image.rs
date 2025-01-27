@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>87075b29-db30-4a7d-866f-c3c56367183f</webElementGuid>
+      <webElementGuid>6853e29d-bb7d-4ab8-b660-bcc71e1ecee5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>change-image</value>
-      <webElementGuid>1324448a-1c49-4910-801a-9cf638b7d191</webElementGuid>
+      <webElementGuid>a0844bdd-1367-4515-a4b6-1d0281f6ef55</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Change image</value>
-      <webElementGuid>7c1219a3-407e-4975-85d3-32d09bdc06c4</webElementGuid>
+      <webElementGuid>d41c2c90-3212-4c77-a797-20a2870c1dbe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/app-root[1]/app-site-layout[1]/div[@class=&quot;container&quot;]/div[@class=&quot;portlet-body&quot;]/app-products[1]/div[@class=&quot;catalogApp&quot;]/section[@class=&quot;container product-view&quot;]/div[@class=&quot;row row-flex&quot;]/div[@class=&quot;detail-wrap&quot;]/form[@class=&quot;catalog-form ng-untouched ng-pristine ng-valid&quot;]/div[@class=&quot;catalog_prod_info_form&quot;]/div[@class=&quot;first_info left-col&quot;]/div[@class=&quot;product-img&quot;]/p[1]/a[@class=&quot;change-image&quot;]</value>
-      <webElementGuid>8e7fd5cb-0de5-441f-ab1d-b9fd33349d68</webElementGuid>
+      <webElementGuid>32254114-5741-4f87-bc2e-1aff8174dc6c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Change image')]</value>
-      <webElementGuid>5f1bada6-af5f-4cab-a60a-26e1a8290c58</webElementGuid>
+      <webElementGuid>2b125225-ed7e-4b6c-b808-a4da0fee500c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='UPC'])[1]/following::a[1]</value>
-      <webElementGuid>3691d47f-6b78-44b6-a5f8-55a123073b3e</webElementGuid>
+      <webElementGuid>991b181c-fc0c-49df-9953-c1420cec26b6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Root Category'])[1]/preceding::a[1]</value>
-      <webElementGuid>9d4b7638-9a0a-4a89-9168-593adc611ea4</webElementGuid>
+      <webElementGuid>d78aabf6-67ce-4de4-b40b-3c05ba5f5406</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Produce'])[3]/preceding::a[1]</value>
-      <webElementGuid>ef59e1a9-1b94-4763-a19e-1fdab289e740</webElementGuid>
+      <webElementGuid>815c55f4-e8db-4c69-a3d5-a568634f6a4f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Change image']/parent::*</value>
-      <webElementGuid>0c2ec51a-1be6-4b3c-b1ad-c81abd263191</webElementGuid>
+      <webElementGuid>0b732a5f-77fd-425f-9c20-7b1870f02da7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//p/a</value>
-      <webElementGuid>1da66fde-a37f-48e7-8d41-93e2357bd775</webElementGuid>
+      <webElementGuid>7d50a20c-d3b0-409f-9aa3-76efd54acbd6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[(text() = 'Change image' or . = 'Change image')]</value>
-      <webElementGuid>b656d8c2-15da-43b7-b431-3586d855afc2</webElementGuid>
+      <webElementGuid>59307fbe-6be6-4de8-9437-922045995f12</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

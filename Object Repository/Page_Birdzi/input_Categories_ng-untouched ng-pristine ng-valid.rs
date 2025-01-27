@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>90eb88e3-1af9-4721-9a45-07d0e31799bd</webElementGuid>
+      <webElementGuid>77fac7cd-376e-45fb-b65e-ee8ba02f30b1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>cb716909-f6d0-467e-b959-201792ccfd45</webElementGuid>
+      <webElementGuid>99f3ae18-ef0c-4c3c-8159-5f99378ae12d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Search Product</value>
-      <webElementGuid>599557cd-8072-4247-835e-67189a9e6b83</webElementGuid>
+      <webElementGuid>ed14be90-4433-4f13-81aa-7f4b66f375c2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ng-untouched ng-pristine ng-valid</value>
-      <webElementGuid>1faadc1a-9435-471e-96a6-2fc17a4b8e74</webElementGuid>
+      <webElementGuid>9a51adc5-dbd4-46f4-959a-c2cd6a43b4db</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/app-root[1]/app-site-layout[1]/div[@class=&quot;container&quot;]/div[@class=&quot;portlet-body&quot;]/app-products[1]/div[@class=&quot;catalogApp&quot;]/section[@class=&quot;container product-view&quot;]/div[@class=&quot;row row-flex&quot;]/div[@class=&quot;products-wrap&quot;]/div[@class=&quot;search-box&quot;]/div[@class=&quot;search-wrap&quot;]/input[@class=&quot;ng-untouched ng-pristine ng-valid&quot;]</value>
-      <webElementGuid>02896998-53f7-4375-b0ea-4f15cf8d08f9</webElementGuid>
+      <webElementGuid>f0965d41-6896-4397-a95e-df3eaf90b49a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>ng-reflect-form</name>
       <type>Main</type>
       <value>[object Object]</value>
-      <webElementGuid>426ca29b-bc3a-4bc9-8c86-9e4d5edbabcc</webElementGuid>
+      <webElementGuid>f678ee54-6861-4a9a-9685-b65fe522b500</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@type='text']</value>
-      <webElementGuid>e1406f8d-5346-48e1-b688-2fded70f05ae</webElementGuid>
+      <webElementGuid>94919520-062e-4009-9c83-0974d8354480</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input</value>
-      <webElementGuid>1fb38290-46d4-493a-8555-884637ae9259</webElementGuid>
+      <webElementGuid>ad3f3a38-fa19-4224-9de0-0826f7ef724d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,6 +93,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @placeholder = 'Search Product']</value>
-      <webElementGuid>657593af-cf99-4c15-88ff-70ac747ba723</webElementGuid>
+      <webElementGuid>a4c21a9a-b286-42bb-8f0d-6a91a1e9f1cf</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

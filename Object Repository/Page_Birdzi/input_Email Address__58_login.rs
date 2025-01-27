@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>b8c4be6e-8aee-42b9-bef0-b5405013137a</webElementGuid>
+      <webElementGuid>e0eb76f6-db5c-4621-874a-d7d612cfc5b8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>field clearable</value>
-      <webElementGuid>c2fc58ad-af15-4ac8-be24-69ce92fd867e</webElementGuid>
+      <webElementGuid>6c23175c-b0bf-437e-9450-428c9cc7fc79</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>id</name>
       <type>Main</type>
       <value>_58_login</value>
-      <webElementGuid>d5f16a14-f2ec-4650-a471-d70aa73c12e3</webElementGuid>
+      <webElementGuid>d40b13c0-41a0-46c0-b6f2-682a19f1aace</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>name</name>
       <type>Main</type>
       <value>_58_login</value>
-      <webElementGuid>3712939c-803a-47a4-8b20-b06723db0a29</webElementGuid>
+      <webElementGuid>570286d3-075a-48dc-8dd5-c1fad3b7e7a4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>type</name>
       <type>Main</type>
       <value>email</value>
-      <webElementGuid>2299632a-cc69-4610-87d6-7879a1c5e286</webElementGuid>
+      <webElementGuid>12727b93-6da9-4468-a422-62221ea3c717</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;_58_login&quot;)</value>
-      <webElementGuid>476d9dbf-504d-461a-8df5-a4a9b3fe3f38</webElementGuid>
+      <webElementGuid>e2b5ead6-3977-4bc4-a1c6-68540a3e7aa7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +77,31 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='_58_login']</value>
-      <webElementGuid>dd73458b-0689-4d87-b0ee-f1ffd7102269</webElementGuid>
+      <webElementGuid>a5015d60-8974-4a4b-9a7f-109f3e8c9791</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='yui_patched_v3_11_0_1_1737956617098_177']/input</value>
+      <webElementGuid>0842dd30-5a38-4bbb-b0f5-07e86075f37d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/input</value>
+      <webElementGuid>1d128054-8358-470b-823f-ba4d46d7c171</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@id = '_58_login' and @name = '_58_login' and @type = 'email']</value>
+      <webElementGuid>ab0da923-809d-4319-a9ff-cc1d5fd5fb65</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,22 +110,6 @@
       <type>Main</type>
       <value>//div[@id='yui_patched_v3_11_0_1_1737716879232_177']/input</value>
       <webElementGuid>f1b89408-5754-4479-8229-97a2ee8c300f</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div/input</value>
-      <webElementGuid>c9393d45-2910-496c-811c-0f1e3ef3aaae</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//input[@id = '_58_login' and @name = '_58_login' and @type = 'email']</value>
-      <webElementGuid>1a96b71a-c8f6-420f-9a2a-28b8b47ab6fc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

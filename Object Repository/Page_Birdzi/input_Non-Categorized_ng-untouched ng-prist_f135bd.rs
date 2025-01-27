@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>edbf530b-6bd7-4fa8-a361-6afa29d31114</webElementGuid>
+      <webElementGuid>7ca3cef4-e7df-4651-ac55-e90fe36aae10</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>9ed8e528-7837-4e58-8c09-09a88da73fca</webElementGuid>
+      <webElementGuid>c6777e1b-1764-4943-b778-146a2c23fd9c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Search Product</value>
-      <webElementGuid>f063dc9f-db4d-4c96-8a33-7ed1997676e7</webElementGuid>
+      <webElementGuid>2150a6a9-38bb-46c6-bef5-1ffbf5e98462</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>ng-reflect-form</name>
       <type>Main</type>
       <value>[object Object]</value>
-      <webElementGuid>54324c15-0d5e-4b2f-a616-c9e724936c28</webElementGuid>
+      <webElementGuid>134a32f1-4bc7-46f7-b626-4e7e7fd22134</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ng-untouched ng-pristine ng-valid</value>
-      <webElementGuid>a7e58461-9944-489b-a0e0-4193c95bad6f</webElementGuid>
+      <webElementGuid>5b4f7d70-3e54-415d-abec-1c961fdf3483</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;lef-panel-filter&quot;)/div[@class=&quot;search-box&quot;]/div[@class=&quot;search-wrap&quot;]/input[@class=&quot;ng-untouched ng-pristine ng-valid&quot;]</value>
-      <webElementGuid>5e5ca5b3-3808-4c0a-82b8-26f6c024ab35</webElementGuid>
+      <webElementGuid>a2e90016-ef2c-4013-8f4e-9bee333c1bd6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@type='text']</value>
-      <webElementGuid>63621e98-facb-447b-ab6c-45da6ad6a19f</webElementGuid>
+      <webElementGuid>8ea6bce1-d638-489b-be96-2a7bef96b016</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='lef-panel-filter']/div[2]/div/input</value>
-      <webElementGuid>a5303689-d8cc-41e3-8e91-11a172845c09</webElementGuid>
+      <webElementGuid>ad4f949f-0572-4e63-af64-c900e9515a86</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/input</value>
-      <webElementGuid>25907554-c3f7-4991-a817-da2ff483901c</webElementGuid>
+      <webElementGuid>bfd67dba-b63c-4a56-9c6c-c3f305bda379</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +101,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @placeholder = 'Search Product']</value>
-      <webElementGuid>62e6ab85-7374-4643-88c5-b0be19414e67</webElementGuid>
+      <webElementGuid>caa4c6ce-1831-44fe-a05d-2533d9661390</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

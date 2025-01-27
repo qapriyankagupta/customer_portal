@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Dev Catalog</name>
+   <name>Catalog Upload and Save Image</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>

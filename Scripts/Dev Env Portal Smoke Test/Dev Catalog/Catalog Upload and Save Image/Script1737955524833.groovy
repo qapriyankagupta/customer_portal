@@ -60,16 +60,16 @@ String filePath = "C:\\Users\\Priyanka\\Desktop\\Image.jpg"
 
 // Define the Test Object for the file input field (replace with your actual Test Object)
 TestObject fileInput = findTestObject('Object Repository/Page_Birdzi/Page_Birdzi/Page_Birdzi/uploadImg')
-WebUI.delay(2)  // Wait for 2 seconds (adjust if needed)
+WebUI.delay(2)  
 
 // Use WebUI.uploadFile to upload the file
 WebUI.uploadFile(fileInput, filePath)
-WebUI.delay(5)  // Wait for 2 seconds (adjust if needed)
+WebUI.delay(2)  
 
 // Wait for a brief moment to ensure file explorer window is closed
-WebUI.delay(2)  // Wait for 2 seconds (adjust if needed)
+WebUI.delay(2)  
 
 WebUI.click(findTestObject('Object Repository/Page_Birdzi/button_Save'))
 
-//WebUI.closeBrowser()
+
 
