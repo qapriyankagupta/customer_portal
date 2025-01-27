@@ -21,7 +21,7 @@
    <testCaseLink>
       <guid>633f80fa-1bed-4f68-8893-644750a13892</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Dev Env Portal Smoke Test/Dev Login/Login</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
