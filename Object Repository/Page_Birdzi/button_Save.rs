@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>4582fac1-5e99-48a5-bb93-72bf1d0f4053</webElementGuid>
+      <webElementGuid>8ee28ca8-00df-4cb1-a931-afe9b7100efe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>fun-btn save-btn</value>
-      <webElementGuid>82d90aab-fd77-4d5c-8230-5e65e1cd904d</webElementGuid>
+      <webElementGuid>1354b49f-0a8e-438d-ba5f-694d1eaa6c56</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Save</value>
-      <webElementGuid>9db79736-eded-4a93-a547-0c4bfa38351a</webElementGuid>
+      <webElementGuid>11878491-9438-437a-8e9f-bd4e55411bf9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/app-root[1]/app-site-layout[1]/div[@class=&quot;container&quot;]/div[@class=&quot;portlet-body&quot;]/app-products[1]/div[@class=&quot;catalogApp&quot;]/section[@class=&quot;container product-view&quot;]/div[@class=&quot;form-btns&quot;]/button[@class=&quot;fun-btn save-btn&quot;]</value>
-      <webElementGuid>37b13d8c-0822-4527-bef4-53c73e7f85a8</webElementGuid>
+      <webElementGuid>c527f7c8-1245-415a-bef0-368826d24da1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -69,7 +69,55 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::button[1]</value>
-      <webElementGuid>97180d1c-1322-4d45-9f4f-26c25f78cc4d</webElementGuid>
+      <webElementGuid>07202163-a562-4ea9-9ef3-edfaddbbbd9d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Detail (package size, count, etc.)'])[1]/following::button[2]</value>
+      <webElementGuid>67e1d445-0405-45f5-81a2-35b19a2789b8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Find Images'])[1]/preceding::button[1]</value>
+      <webElementGuid>5ae91302-c20b-4063-bb07-bb1bbc4d6fd2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search'])[2]/preceding::button[1]</value>
+      <webElementGuid>7726081b-272c-4eec-8c33-478142d0ce0c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Save']/parent::*</value>
+      <webElementGuid>8b81eee8-df25-4670-98f2-db1b86b9e5b6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[2]</value>
+      <webElementGuid>5ce4026f-6eb9-45dd-981c-2ff5fd966b57</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Save' or . = 'Save')]</value>
+      <webElementGuid>aed33a5b-cfad-4419-b1db-d4d949213e7e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,54 +126,6 @@
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Reset to default'])[1]/following::button[2]</value>
       <webElementGuid>99bb417f-a2a9-4aec-bbc8-140326e785a1</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Find Images'])[1]/preceding::button[1]</value>
-      <webElementGuid>f53eca19-4b6d-40c6-a313-0bef2ea9fcc0</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search'])[2]/preceding::button[1]</value>
-      <webElementGuid>367c22bb-c001-4dca-bea8-e5503448ab04</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Save']/parent::*</value>
-      <webElementGuid>a8b95b24-ee32-4405-ad94-64cc19567a09</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//button[2]</value>
-      <webElementGuid>82f4c9b0-7d28-4dad-9e3a-f5f7aca5ad5d</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//button[(text() = 'Save' or . = 'Save')]</value>
-      <webElementGuid>8a097055-7a4f-436e-8eb4-6333767edc23</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Detail (package size, count, etc.)'])[1]/following::button[2]</value>
-      <webElementGuid>e716fab4-48ea-49e9-bc9b-243b187e1dcd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

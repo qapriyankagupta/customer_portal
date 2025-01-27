@@ -51,6 +51,28 @@ WebUI.sendKeys(findTestObject('Object Repository/Page_Birdzi/input_Categories_ng
 
 WebUI.click(findTestObject('Parameterized/DEV_Catalog Milk Search Products List', [('index') : index]))
 
+WebUI.click(findTestObject('Object Repository/Page_Birdzi/span_Produce'))
+
+WebUI.click(findTestObject('Object Repository/Page_Birdzi/li_Dairy, Eggs  Cheese'))
+
+WebUI.click(findTestObject('Object Repository/Page_Birdzi/span_Category_select select-menu-toggle'))
+
+WebUI.click(findTestObject('Object Repository/Page_Birdzi/li_AD COUPON'))
+
+WebUI.click(findTestObject('Object Repository/Page_Birdzi/div_Change image'))
+
+WebUI.setText(findTestObject('Object Repository/Page_Birdzi/input_Brand Name_ng-untouched ng-valid ng-dirty'), '123')
+
+WebUI.executeJavaScript("window.scrollBy(0, 1000)", [])
+
+
+WebUI.setText(findTestObject('Object Repository/Page_Birdzi/input_Name_ng-untouched ng-pristine ng-valid'), 'Name Editted')
+
+WebUI.setText(findTestObject('Object Repository/Page_Birdzi/input_Detail (package size, count, etc.)_ng_477b85'), '11.5 OZ')
+
+//WebUI.click(findTestObject('Object Repository/Page_Birdzi/div_UPCChange imageRoot CategoryDairy, Eggs_29e0d4'))
+
+
 WebUI.click(findTestObject('Object Repository/Page_Birdzi/a_change image'))
 
 WebUI.click(findTestObject('Object Repository/Page_Birdzi/a_Upload Image'))
@@ -71,6 +93,8 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/Page_Birdzi/button_Save'))
 
-WebUI.click(findTestObject('Object Repository/Page_Birdzi/a_Reset to default image'))
+
+
+
 
 

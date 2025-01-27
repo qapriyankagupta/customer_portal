@@ -7,18 +7,18 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//span[@name='prodcategory']</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Root Category'])[1]/following::span[1]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>span[name=&quot;prodcategory&quot;]</value>
+         <value>div.first_info.right-col > div.form-group > div.select-container > span.select.select-menu-toggle</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>span >> internal:has-text=&quot;Produce&quot;i</value>
+         <value>form span >> internal:has-text=&quot;Produce&quot;i</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>e8022250-6002-498c-b849-1ec8b80e4741</webElementGuid>
+      <webElementGuid>ed7bce41-e9c9-4467-8b8b-210cb811db77</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>select select-menu-toggle</value>
-      <webElementGuid>8002c8f4-c55f-45cd-be3e-b1bd23b193c2</webElementGuid>
+      <webElementGuid>630aca4b-1793-4d85-b890-f4dae851a98a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,18 +53,74 @@
       <name>text</name>
       <type>Main</type>
       <value>Produce</value>
-      <webElementGuid>cdf917d5-573b-4ae8-98ba-233540efef78</webElementGuid>
+      <webElementGuid>a14125f8-e065-447b-8b95-164f7c0154b7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;lef-panel-filter&quot;)/div[@class=&quot;form-group catdd&quot;]/div[@class=&quot;select-container&quot;]/span[@class=&quot;select select-menu-toggle&quot;]</value>
-      <webElementGuid>224d0766-d30f-449a-bc71-ce7cd508ca9e</webElementGuid>
+      <value>/html[1]/body[1]/app-root[1]/app-site-layout[1]/div[@class=&quot;container&quot;]/div[@class=&quot;portlet-body&quot;]/app-products[1]/div[@class=&quot;catalogApp&quot;]/section[@class=&quot;container product-view&quot;]/div[@class=&quot;row row-flex&quot;]/div[@class=&quot;detail-wrap&quot;]/form[@class=&quot;catalog-form ng-untouched ng-valid ng-dirty&quot;]/div[@class=&quot;catalog_prod_info_form&quot;]/div[@class=&quot;first_info right-col&quot;]/div[@class=&quot;form-group&quot;]/div[@class=&quot;select-container&quot;]/span[@class=&quot;select select-menu-toggle&quot;]</value>
+      <webElementGuid>cb2ca369-ba08-4329-91bc-22a338e67990</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>4</value>
+      <webElementGuid>6bd21f7e-34f7-47c1-a160-ed727f356264</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Root Category'])[1]/following::span[1]</value>
+      <webElementGuid>3e551e96-6457-471f-b2ec-bab9e6a04381</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Change image'])[1]/following::span[1]</value>
+      <webElementGuid>12c80dd6-a87e-4975-990b-ddc5cb24a797</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Produce'])[4]/preceding::span[1]</value>
+      <webElementGuid>47df629a-5a40-4125-9091-a75460f01474</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dairy, Eggs &amp; Cheese'])[2]/preceding::span[1]</value>
+      <webElementGuid>a65bcbde-73f6-48d1-bac7-c87baa2541eb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/span</value>
+      <webElementGuid>e20a56f3-4751-49ac-b483-4c607f357beb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Produce' or . = 'Produce')]</value>
+      <webElementGuid>3f92a4cf-677e-4986-83e9-c1921e17e1d9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>

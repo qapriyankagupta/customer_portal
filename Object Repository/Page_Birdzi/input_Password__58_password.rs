@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>aafc7baa-6452-47a2-b634-7b1b986de046</webElementGuid>
+      <webElementGuid>2057eeb0-fadb-4574-b36a-e0cc2775af95</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>field</value>
-      <webElementGuid>3b0e47fe-6b94-4747-8cb4-76a22f7f9ae6</webElementGuid>
+      <webElementGuid>8d9bd1b6-1876-4bb5-93c6-7aa9b2824f0c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>id</name>
       <type>Main</type>
       <value>_58_password</value>
-      <webElementGuid>8e2d1a15-e23e-4fe9-bd19-3c51c606cd70</webElementGuid>
+      <webElementGuid>73a876e9-70a2-4a00-ab87-75a184faf1ff</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>name</name>
       <type>Main</type>
       <value>_58_password</value>
-      <webElementGuid>058fdb9c-ba66-4b61-90d9-a4772b604806</webElementGuid>
+      <webElementGuid>63b0f427-a00c-4f05-ae61-375809953f0b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>type</name>
       <type>Main</type>
       <value>password</value>
-      <webElementGuid>34ad6efd-6275-4173-9e45-c5ff0e9cf8d5</webElementGuid>
+      <webElementGuid>17e7cf64-b75f-41bb-8f01-8774d4586702</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;_58_password&quot;)</value>
-      <webElementGuid>14a1bddc-e97f-490f-a87d-e1c28c92cff3</webElementGuid>
+      <webElementGuid>485fdd93-25d3-4302-a5a5-d44e4a2bc49a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +77,31 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='_58_password']</value>
-      <webElementGuid>b7e011c0-7c6d-4d23-a545-320308bad206</webElementGuid>
+      <webElementGuid>499673d2-08ea-48c9-b1a4-5afd998b85eb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='yui_patched_v3_11_0_1_1737976120236_194']/input</value>
+      <webElementGuid>aad30def-83d0-40a8-9e92-3a326b00990f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/input</value>
+      <webElementGuid>2f72b4f7-0b80-41a2-88d7-7770a55599f8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@id = '_58_password' and @name = '_58_password' and @type = 'password']</value>
+      <webElementGuid>df031c3e-ff30-4b40-a8f6-1d53b52c072a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,22 +110,6 @@
       <type>Main</type>
       <value>//div[@id='yui_patched_v3_11_0_1_1737956617098_196']/input</value>
       <webElementGuid>e51a218d-11f2-4e63-8cc4-5616039f551c</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div[2]/input</value>
-      <webElementGuid>e55fcfb5-bf8b-44d1-b88f-97c30dd743eb</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//input[@id = '_58_password' and @name = '_58_password' and @type = 'password']</value>
-      <webElementGuid>84b09724-1d5c-4c6a-bb0b-4594d3d6351b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

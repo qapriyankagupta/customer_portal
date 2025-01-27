@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Non-Categorized_ng-untouched ng-prist_f135bd</name>
+   <name>input_Brand Name_ng-untouched ng-valid ng-dirty</name>
    <tag></tag>
-   <elementGuidId>664d722a-a412-4f4b-9a95-edd868c8f0b0</elementGuidId>
+   <elementGuidId>ad308313-5be5-422d-a0d9-8d202ef2d2a0</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@type='text']</value>
+         <value>(//input[@type='text'])[3]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>div.search-wrap > input.ng-untouched.ng-pristine.ng-valid</value>
+         <value>input.ng-untouched.ng-valid.ng-dirty</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:attr=[placeholder=&quot;Search Product&quot;i]</value>
+         <value>internal:attr=[placeholder=&quot;Brand Name&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>75fc8544-abda-4afc-b39f-db71c58ba623</webElementGuid>
+      <webElementGuid>ed245fd5-f39c-463e-b32d-79e326606963</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,70 +37,70 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>0628d2e0-a62f-4ee8-bcab-fe2cbcf468df</webElementGuid>
+      <webElementGuid>a2af8370-ac60-4c09-85a3-75845069f129</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>Search Product</value>
-      <webElementGuid>c29bded3-dfde-43c8-a81b-29e1abc0b7b2</webElementGuid>
+      <value>Brand Name</value>
+      <webElementGuid>887ed758-fd56-4c03-83bf-7d764e6989fa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>ng-reflect-form</name>
+      <name>formcontrolname</name>
       <type>Main</type>
-      <value>[object Object]</value>
-      <webElementGuid>88f7d716-966d-48f1-9c80-ed8cc9646304</webElementGuid>
+      <value>brandName</value>
+      <webElementGuid>f911b160-a430-48f6-bf16-24983b8ee432</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-name</name>
+      <type>Main</type>
+      <value>brandName</value>
+      <webElementGuid>20b188e7-b907-4d10-9816-1c5bad75cae5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ng-untouched ng-pristine ng-valid</value>
-      <webElementGuid>b1a7fe23-ea33-4086-8ffe-ab9bbd31da6d</webElementGuid>
+      <value>ng-untouched ng-valid ng-dirty</value>
+      <webElementGuid>4a6d053d-645a-4c99-ac83-d1e2ddb552b1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;lef-panel-filter&quot;)/div[@class=&quot;search-box&quot;]/div[@class=&quot;search-wrap&quot;]/input[@class=&quot;ng-untouched ng-pristine ng-valid&quot;]</value>
-      <webElementGuid>f2338595-6236-480b-88c6-c5de66c1a376</webElementGuid>
+      <value>/html[1]/body[1]/app-root[1]/app-site-layout[1]/div[@class=&quot;container&quot;]/div[@class=&quot;portlet-body&quot;]/app-products[1]/div[@class=&quot;catalogApp&quot;]/section[@class=&quot;container product-view&quot;]/div[@class=&quot;row row-flex&quot;]/div[@class=&quot;detail-wrap&quot;]/form[@class=&quot;catalog-form ng-untouched ng-dirty ng-valid&quot;]/div[@class=&quot;catalog_prod_info_form&quot;]/div[@class=&quot;first_info right-col&quot;]/div[@class=&quot;form-group&quot;]/input[@class=&quot;ng-untouched ng-valid ng-dirty&quot;]</value>
+      <webElementGuid>7d903084-e844-4fe1-b18a-270c1ec60246</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@type='text']</value>
-      <webElementGuid>cb419a6f-0508-4f1d-b4bd-1e7a714cd76f</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='lef-panel-filter']/div[2]/div/input</value>
-      <webElementGuid>a5f35bc8-4f46-4323-9095-5d5b073ef1e5</webElementGuid>
+      <value>(//input[@type='text'])[3]</value>
+      <webElementGuid>d5c09c07-5cd6-47a9-b342-47216f093a2b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/input</value>
-      <webElementGuid>27b792e2-9405-481f-95aa-eb11fae8ae9c</webElementGuid>
+      <value>//div[3]/input</value>
+      <webElementGuid>1d6bdffb-0c20-4ba0-9150-9b96b815e2ec</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'text' and @placeholder = 'Search Product']</value>
-      <webElementGuid>29e7e9fb-f8e2-43a6-8ced-f0fff6d88706</webElementGuid>
+      <value>//input[@type = 'text' and @placeholder = 'Brand Name']</value>
+      <webElementGuid>ce7d169e-0a14-4148-a47e-4690015c1cf4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

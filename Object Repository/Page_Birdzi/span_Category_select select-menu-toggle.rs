@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>e42f033c-f53f-4b5a-a347-c782ba865824</webElementGuid>
+      <webElementGuid>e178ef35-8afe-4bad-8aab-38e33756e927</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>4</value>
-      <webElementGuid>189457dd-be7e-443a-8796-2defd3102234</webElementGuid>
+      <webElementGuid>4e7a8156-cbbe-4886-879d-a705f68c2c28</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,15 +45,15 @@
       <name>class</name>
       <type>Main</type>
       <value>select select-menu-toggle</value>
-      <webElementGuid>f99cf1ce-ad0b-4821-bd11-602218112093</webElementGuid>
+      <webElementGuid>8c8c52c5-2cc8-431c-b313-11dae75e7542</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/app-root[1]/app-site-layout[1]/div[@class=&quot;container&quot;]/div[@class=&quot;portlet-body&quot;]/app-products[1]/div[@class=&quot;catalogApp&quot;]/section[@class=&quot;container product-view&quot;]/div[@class=&quot;row row-flex&quot;]/div[@class=&quot;detail-wrap&quot;]/form[@class=&quot;catalog-form ng-untouched ng-dirty ng-invalid&quot;]/div[@class=&quot;catalog_prod_info_form&quot;]/div[@class=&quot;first_info right-col highlighted&quot;]/div[@class=&quot;form-group&quot;]/div[@class=&quot;select-container&quot;]/span[@class=&quot;select select-menu-toggle&quot;]</value>
-      <webElementGuid>22da398c-4087-4c3e-97fb-3e9de7d57216</webElementGuid>
+      <value>/html[1]/body[1]/app-root[1]/app-site-layout[1]/div[@class=&quot;container&quot;]/div[@class=&quot;portlet-body&quot;]/app-products[1]/div[@class=&quot;catalogApp&quot;]/section[@class=&quot;container product-view&quot;]/div[@class=&quot;row row-flex&quot;]/div[@class=&quot;detail-wrap&quot;]/form[@class=&quot;catalog-form ng-untouched ng-dirty ng-invalid&quot;]/div[@class=&quot;catalog_prod_info_form&quot;]/div[@class=&quot;first_info right-col&quot;]/div[@class=&quot;form-group&quot;]/div[@class=&quot;select-container&quot;]/span[@class=&quot;select select-menu-toggle&quot;]</value>
+      <webElementGuid>39d7cb4d-4db4-4afc-8582-b5b5fd23b9c0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,6 +61,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/div/span</value>
-      <webElementGuid>ffd953b1-cbb1-46ed-846e-a7edb809b520</webElementGuid>
+      <webElementGuid>80c761c7-1814-488e-b8e9-3e05712beaed</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

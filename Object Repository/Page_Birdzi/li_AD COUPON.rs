@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Upload Image</name>
+   <name>li_AD COUPON</name>
    <tag></tag>
-   <elementGuidId>d65a9ce0-1129-4881-92e6-cbe522b8ea1d</elementGuidId>
+   <elementGuidId>04a776b1-b5ca-4c1e-ac85-997c004bc940</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(text(),'Upload Image')]</value>
+         <value>//ul[@id='sub-category-edit']/li[2]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>div.upload_btn > a</value>
+         <value>#sub-category-edit > li:nth-of-type(2)</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:text=&quot;Upload Image&quot;i</value>
+         <value>internal:text=&quot;AD COUPON&quot;i</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -28,87 +28,95 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
-      <webElementGuid>6660f02f-78b1-4259-a919-acce5ebd4009</webElementGuid>
+      <value>li</value>
+      <webElementGuid>65937381-775f-40dd-b2b9-836293ae9f05</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-ng-class</name>
+      <type>Main</type>
+      <value>[object Object]</value>
+      <webElementGuid>459d35e0-b759-45d3-ac09-f59471d7745e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Upload Image</value>
-      <webElementGuid>4fb5bf8a-959f-4d82-a0cc-20be6e2c75db</webElementGuid>
+      <value>AD COUPON</value>
+      <webElementGuid>a7ab4022-b7b8-473c-9896-7c00fa334c76</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/div[@class=&quot;modal-change-image explore-pop&quot;]/div[@class=&quot;modal&quot;]/div[@class=&quot;modal-dialog modal-lg modal_offer&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-body clearfix&quot;]/div[@class=&quot;modal-container&quot;]/div[@class=&quot;upload_image_block&quot;]/div[@class=&quot;search-box&quot;]/div[@class=&quot;upload_btn&quot;]/a[1]</value>
-      <webElementGuid>6b014a91-de6d-401b-ba97-c9930cfc967f</webElementGuid>
+      <value>id(&quot;sub-category-edit&quot;)/li[2]</value>
+      <webElementGuid>28c67816-23d1-40bd-b2eb-b5c35008ac5f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:link</name>
+      <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//a[contains(text(),'Upload Image')]</value>
-      <webElementGuid>5f4555e5-f6d7-4db7-a1b9-9e008f10da36</webElementGuid>
+      <value>//ul[@id='sub-category-edit']/li[2]</value>
+      <webElementGuid>2592f977-7cd8-477a-a913-5fc7374b16c4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search'])[2]/following::a[1]</value>
-      <webElementGuid>32723cd4-397f-4320-8478-a91acbd236a8</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='.100 STRENGTH ACRYLIC SHEETING'])[1]/following::li[1]</value>
+      <webElementGuid>4bb75b19-fe36-4732-a55d-838f10e2a81e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Find Images'])[1]/following::a[1]</value>
-      <webElementGuid>0d832e0d-a6c6-4dc1-bf2a-6c20e508d92d</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Category'])[1]/following::li[2]</value>
+      <webElementGuid>b5b56732-8963-4bc6-9825-664c69b73ac1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[2]/preceding::a[1]</value>
-      <webElementGuid>ecb3b99d-6185-4de2-9be5-9922c43028cc</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='BUTTER/MARGARINE'])[1]/preceding::li[1]</value>
+      <webElementGuid>e0413172-0d8f-4522-9802-c727cf8a609b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Done'])[1]/preceding::a[1]</value>
-      <webElementGuid>265b3fcd-8030-4f65-8ee0-1919ea3690c7</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='BUTTER/MARGARINE-BLENDS'])[1]/preceding::li[2]</value>
+      <webElementGuid>3e7c0371-d069-4bc0-943f-f13cf51bef66</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Upload Image']/parent::*</value>
-      <webElementGuid>556b2925-9fd0-41d4-831d-d86ca5650704</webElementGuid>
+      <value>//*/text()[normalize-space(.)='AD COUPON']/parent::*</value>
+      <webElementGuid>35ca2512-4db2-49d7-b85a-0c1245934486</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/a</value>
-      <webElementGuid>fd1f5a62-1435-468b-8b13-6f89878d32c8</webElementGuid>
+      <value>//div[2]/div[2]/div/ul/li[2]</value>
+      <webElementGuid>c5c15f47-9ebd-4695-8315-071351073dbf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[(text() = 'Upload Image' or . = 'Upload Image')]</value>
-      <webElementGuid>8c67fda7-eb20-4d74-9853-351326976a2e</webElementGuid>
+      <value>//li[(text() = 'AD COUPON' or . = 'AD COUPON')]</value>
+      <webElementGuid>1391dac9-f418-4f07-b2af-7393a7f289a1</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

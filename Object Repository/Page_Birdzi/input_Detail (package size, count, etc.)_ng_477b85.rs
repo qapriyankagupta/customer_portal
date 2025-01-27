@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//input[@type='text'])[4]</value>
+         <value>(//input[@type='text'])[5]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>9ac6db4d-973c-45e5-9853-21e9ecb3c9db</webElementGuid>
+      <webElementGuid>0dd2e16e-f0bd-4108-9cc7-cf31dd0f581e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>04b6cf29-06ee-4372-8a5f-44f247342915</webElementGuid>
+      <webElementGuid>72196180-75c9-47e2-b412-368cf8b64077</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>eg. 8oz, 6-pack</value>
-      <webElementGuid>385c7d8e-9ea5-4bcb-8660-8205d8afd31e</webElementGuid>
+      <webElementGuid>0ea8c2ad-c3b6-4b0f-a9e2-6e569f36463d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>formcontrolname</name>
       <type>Main</type>
       <value>name2</value>
-      <webElementGuid>f52dd652-271d-480a-aebd-4d8c82bf70ff</webElementGuid>
+      <webElementGuid>ac36d347-3d56-4acb-aab3-9c6e739937b5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>ng-reflect-name</name>
       <type>Main</type>
       <value>name2</value>
-      <webElementGuid>3f54d875-24eb-4ecc-816c-b10860541c71</webElementGuid>
+      <webElementGuid>1a72e069-d5b5-4132-ba3e-9281f11665e0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,18 +69,42 @@
       <name>class</name>
       <type>Main</type>
       <value>ng-untouched ng-pristine ng-valid</value>
-      <webElementGuid>b26d5cd3-82cd-4628-9c3c-b0abe7643fbc</webElementGuid>
+      <webElementGuid>ea1e5140-c4bc-42d6-a145-7cabd1aa30ea</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/app-root[1]/app-site-layout[1]/div[@class=&quot;container&quot;]/div[@class=&quot;portlet-body&quot;]/app-products[1]/div[@class=&quot;catalogApp&quot;]/section[@class=&quot;container product-view&quot;]/div[@class=&quot;row row-flex&quot;]/div[@class=&quot;detail-wrap&quot;]/form[@class=&quot;catalog-form ng-untouched ng-dirty ng-valid&quot;]/div[@class=&quot;catalog_prod_info_form&quot;]/div[@class=&quot;first_info right-col highlighted&quot;]/div[@class=&quot;form-group&quot;]/input[@class=&quot;ng-untouched ng-pristine ng-valid&quot;]</value>
-      <webElementGuid>7258c29c-aa5d-44b3-8961-290af814416e</webElementGuid>
+      <value>/html[1]/body[1]/app-root[1]/app-site-layout[1]/div[@class=&quot;container&quot;]/div[@class=&quot;portlet-body&quot;]/app-products[1]/div[@class=&quot;catalogApp&quot;]/section[@class=&quot;container product-view&quot;]/div[@class=&quot;row row-flex&quot;]/div[@class=&quot;detail-wrap&quot;]/form[@class=&quot;catalog-form ng-dirty ng-touched ng-valid&quot;]/div[@class=&quot;catalog_prod_info_form&quot;]/div[@class=&quot;first_info right-col&quot;]/div[@class=&quot;form-group&quot;]/input[@class=&quot;ng-untouched ng-pristine ng-valid&quot;]</value>
+      <webElementGuid>7989dc87-3256-4eec-8ed2-5485ec7cf91a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@type='text'])[5]</value>
+      <webElementGuid>4b676e97-76a2-45cd-98a6-c5a6039acc81</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/input</value>
+      <webElementGuid>6923ec17-fa79-4bd0-8799-90698055a1f5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'text' and @placeholder = 'eg. 8oz, 6-pack']</value>
+      <webElementGuid>fc4f21f8-2f03-4d42-be24-fae9ec74be04</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
@@ -94,13 +118,5 @@
       <type>Main</type>
       <value>//div[4]/input</value>
       <webElementGuid>2fa912d4-528a-4e50-ba2a-31b0900e2b0a</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//input[@type = 'text' and @placeholder = 'eg. 8oz, 6-pack']</value>
-      <webElementGuid>49eae81d-161c-41a2-8a47-05c2781d2050</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
