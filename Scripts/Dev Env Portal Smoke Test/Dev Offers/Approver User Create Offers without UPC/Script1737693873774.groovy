@@ -42,14 +42,14 @@ String approverOffersUrl = GlobalVariable.APPROVER_OFFERS_DEV_URL
 // Navigate to the dynamically stored URL
 WebUI.navigateToUrl(approverOffersUrl)
 
-WebUI.delay(2 // This delays for 2 seconds
-    )
+WebUI.delay(2) // This delays for 2 seconds
+    
 
 //--------------------------------------------------------------------------------------------------------------
 WebUI.click(findTestObject('Object Repository/Page_Birdzi/button_Create Offer'))
 
-WebUI.delay(2 // This delays for 2 seconds
-    )
+WebUI.delay(2) // This delays for 2 seconds
+    
 
 WebUI.setText(findTestObject('Object Repository/Page_Birdzi/input_Offer Title_ng-untouched ng-pristine _f71de3'), 'Offer Title 123')
 
