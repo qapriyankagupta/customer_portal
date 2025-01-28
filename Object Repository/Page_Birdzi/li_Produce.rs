@@ -6,12 +6,12 @@
    <elementGuidId>a54534aa-1713-4184-a31f-3bb9809ab035</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//ul[@id='select-manu-options']/li[2]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#select-manu-options > li:nth-of-type(2)</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='All Root Categories'])[2]/following::li[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

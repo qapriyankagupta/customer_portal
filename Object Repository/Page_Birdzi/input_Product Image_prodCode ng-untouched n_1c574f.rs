@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[7]/div[4]/div/span/input</value>
+         <value>//input[@placeholder = 'Add UPCs']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

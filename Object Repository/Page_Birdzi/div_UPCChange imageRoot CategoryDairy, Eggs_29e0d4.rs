@@ -6,12 +6,12 @@
    <elementGuidId>dff459b5-9af7-44b6-add1-866c9a0e958e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Over The Moon 1% Lowfat Milk [at 0 stores]'])[1]/following::div[5]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.catalog_prod_info_form</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//form/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

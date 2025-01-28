@@ -6,12 +6,12 @@
    <elementGuidId>7587d148-93e4-4730-ab41-c42560a69dc6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='lef-panel-filter']/div[2]/button</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>button.fun-btn.search-btn</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Non-Categorized'])[1]/following::button[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
