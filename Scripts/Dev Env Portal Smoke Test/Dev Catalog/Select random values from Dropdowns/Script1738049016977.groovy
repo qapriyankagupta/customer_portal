@@ -62,7 +62,7 @@ randomItem.addProperty('xpath', ConditionType.EQUALS, randomXPath)
 // Click on the randomly selected item
 WebUI.click(randomItem)
 
-// Optional: Log the selected option (you can replace this with the actual text of the selected item if needed)
+// Log the selected option (you can replace this with the actual text of the selected item if needed)
 println("Selected random index: " + randomIndex)
 
 
